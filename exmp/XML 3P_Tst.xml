@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ord="http://xmlns.oracle.com/communications/ordermanagement">
+  <soapenv:Header>
+    <wsse:Security soapenv:mustUnderstand="1" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:UsernameToken wsu:Id="UsernameToken-D67B4B21B543088DD915716705490912">
+        <wsse:Username>soa</wsse:Username>
+        <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">soati#01</wsse:Password>
+      </wsse:UsernameToken>
+    </wsse:Security>
+  </soapenv:Header>
+  <soapenv:Body>
+    <ord:CreateOrder xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://www.oi.net.br/INFRA/SOAFW/SharedResources/Types/v1" xmlns:nxsd="http://xmlns.oracle.com/pcbpel/nxsd" xmlns:im="http://xmlns.oracle.com/InputMessage" xmlns:msg="http://www.oi.net.br/INFRA/SOAFW/SharedResources/Messaging/v2">
+      <_root>
+        <requisicao>
+          <idPedido>4-179219335868</idPedido>
+          <versao>20240621073528</versao>
+          <timestamp>2024-06-21T07:35:50</timestamp>
+          <nomeBundle>BD_OITOTAL_VoIP+BL+IPTV</nomeBundle>
+          <tipoBundle>Promoção</tipoBundle>
+          <tipoPromocao>Oi Total</tipoPromocao>
+          <idCatalogo>Triple Play Fibra</idCatalogo>
+          <codAtividade>63</codAtividade>
+          <origemPedido>Contact Center</origemPedido>
+          <operacoes>
+            <operacao>
+              <operacao>mudancaEnderecoFTTH</operacao>
+              <idAtivo>4-1XOQHLWL</idAtivo>
+              <tipoProduto>Promoção</tipoProduto>
+            </operacao>
+          </operacoes>
+          <listaEnderecos>
+            <endereco>
+              <tipoEndereco>Original</tipoEndereco>
+              <id>4-1Y27BVS8</id>
+              <tipoLogradouro>RUA</tipoLogradouro>
+              <nomeLogradouro>BENTO LISBOA</nomeLogradouro>
+              <numero>120</numero>
+              <tipoComplemento1>AP</tipoComplemento1>
+              <complemento1>409</complemento1>
+              <tipoComplemento2>BL</tipoComplemento2>
+              <complemento2>3</complemento2>
+              <tipoComplemento3/>
+              <complemento3/>
+              <codigoLocalidade>5000</codigoLocalidade>
+              <localidade>RIO DE JANEIRO</localidade>
+              <bairro>CATETE</bairro>
+              <cidade>RIO DE JANEIRO</cidade>
+              <estado>RJ</estado>
+              <pontoDeReferencia>...</pontoDeReferencia>
+              <cep>22221011</cep>
+              <idLogradouro>6681</idLogradouro>
+              <siglaLocalidade>RJO</siglaLocalidade>
+            </endereco>
+            <endereco>
+              <tipoEndereco>Novo</tipoEndereco>
+              <id>4-2ABYKCKL</id>
+              <tipoLogradouro>RUA</tipoLogradouro>
+              <nomeLogradouro>BENTO LISBOA</nomeLogradouro>
+              <numero>120</numero>
+              <tipoComplemento1>BL</tipoComplemento1>
+              <complemento1>1</complemento1>
+              <tipoComplemento2>AP</tipoComplemento2>
+              <complemento2>1201</complemento2>
+              <tipoComplemento3>A</tipoComplemento3>
+              <complemento3/>
+              <codigoLocalidade>5000</codigoLocalidade>
+              <localidade>RIO DE JANEIRO</localidade>
+              <bairro>CATETE</bairro>
+              <cidade>RIO DE JANEIRO</cidade>
+              <estado>RJ</estado>
+              <pontoDeReferencia>CONDOMÍNIO QUARTIER CARIOCA</pontoDeReferencia>
+              <cep>22221011</cep>
+              <idLogradouro>6681</idLogradouro>
+              <siglaLocalidade>RJO</siglaLocalidade>
+            </endereco>
+          </listaEnderecos>
+          <contato>
+            <nome>FERNANDA DA SILVA DANTAS</nome>
+            <numeroDocumento>10884366766</numeroDocumento>
+            <dataNascimento>1986-06-07</dataNascimento>
+            <nomeMae>VANEUZA DA SILVA DANTAS</nomeMae>
+            <sexo>F</sexo>
+            <email/>
+            <telefoneContato1>+5521971185767</telefoneContato1>
+            <telefoneContato2>+5521971185767</telefoneContato2>
+            <telefoneContato3>+5521971185767</telefoneContato3>
+            <nomeRazaoSocial>FERNANDA DA SILVA DANTAS</nomeRazaoSocial>
+            <nomeConta>FERNANDA DA SILVA DANTAS</nomeConta>
+            <unidadeNegocio>207</unidadeNegocio>
+            <segmentoMercado>RESIDENCIAL</segmentoMercado>
+          </contato>
+          <acessos>
+            <acesso>
+              <idCatalogo>OI_IPTV</idCatalogo>
+              <idAtivo>4-1XOQHLWM</idAtivo>
+              <nome>Oi IPTV</nome>
+              <tipoProduto>Serviço de TV</tipoProduto>
+              <acao>modificar</acao>
+              <plano>
+                <idCatalogo>PCT_CANAL_TOTAL_HD</idCatalogo>
+                <nome>Total HD</nome>
+                <acao>-</acao>
+                <idAtivo>4-1XOQIOGA</idAtivo>
+                <qtdPontosRFOverlay>0</qtdPontosRFOverlay>
+                <qtdPontosSTBDVRGratis>1</qtdPontosSTBDVRGratis>
+                <qtdPontosSTBHDGratis>1</qtdPontosSTBHDGratis>
+                <qtdPontosSTBHDPago>4</qtdPontosSTBHDPago>
+                <listaDeAtributos>
+                  <atributo>
+                    <nome>Qualidade</nome>
+                    <valor>HD</valor>
+                  </atributo>
+                  <atributo>
+                    <nome>Quantidade de Canais</nome>
+                    <valor>70</valor>
+                  </atributo>
+                </listaDeAtributos>
+              </plano>
+              <bloqueios/>
+              <atributos>
+                <atributo>
+                  <nome>Tipo Meio Acesso</nome>
+                  <valor>IPTV</valor>
+                </atributo>
+              </atributos>
+              <servicosDigitais/>
+              <servicos>
+                <servico>
+                  <idCatalogo>SVCTV_PONTO_STB_HD_GRATIS</idCatalogo>
+                  <nome>Ponto STB HD Grátis</nome>
+                  <tipoProduto>Serviço</tipoProduto>
+                  <acao>-</acao>
+                  <idAtivo>4-1XOQIOHE</idAtivo>
+                  <atributos>
+                    <atributo>
+                      <nome>Identificador Externo</nome>
+                      <valor/>
+                    </atributo>
+                    <atributo>
+                      <nome>Tecnologia</nome>
+                      <valor>HD</valor>
+                    </atributo>
+                    <atributo>
+                      <nome>Tipo</nome>
+                      <valor>STB</valor>
+                    </atributo>
+                  </atributos>
+                </servico>
+                <servico>
+                  <idCatalogo>SVCTV_PONTO_STB_HD_PAGO</idCatalogo>
+                  <nome>Ponto STB HD Pago</nome>
+                  <tipoProduto>Serviço</tipoProduto>
+                  <acao>-</acao>
+                  <idAtivo>4-1XOQIOKT</idAtivo>
+                  <atributos>
+                    <atributo>
+                      <nome>Identificador Externo</nome>
+                      <valor/>
+                    </atributo>
+                    <atributo>
+                      <nome>Tecnologia</nome>
+                      <valor>HD</valor>
+                    </atributo>
+                    <atributo>
+                      <nome>Tipo</nome>
+                      <valor>STB</valor>
+                    </atributo>
+                  </atributos>
+                </servico>
+              </servicos>
+              <pacotesAdicionais>
+                <pacoteAdicional>
+                  <idCatalogo>PCT_CANAL_ADIC_PFCCOMP</idCatalogo>
+                  <nome>PFC Completo</nome>
+                  <tipoProduto>Pacote de Canal Adicional</tipoProduto>
+                  <acao>-</acao>
+                  <idAtivo>4-2105VZK6</idAtivo>
+                </pacoteAdicional>
+              </pacotesAdicionais>
+            </acesso>
+            <acesso>
+              <idCatalogo>OI_VOIP</idCatalogo>
+              <idAtivo>4-1XOQHLZW</idAtivo>
+              <nome>Oi VoIP</nome>
+              <tipoProduto>Linha Telefônica VoIP</tipoProduto>
+              <acao>modificar</acao>
+              <plano>
+                <idCatalogo>OIVOIP_FIXO_SEMLIMITES</idCatalogo>
+                <nome>Fixo sem limites</nome>
+                <acao>-</acao>
+                <idAtivo>4-1XOQHMGC</idAtivo>
+                <listaDeAtributos>
+                  <atributo>
+                    <nome>Classe de Plano</nome>
+                    <valor>Residencial</valor>
+                  </atributo>
+                  <atributo>
+                    <nome>Segmento</nome>
+                    <valor>Qualquer</valor>
+                  </atributo>
+                  <atributo>
+                    <nome>Tipo de Plano</nome>
+                    <valor>Pos-Pago</valor>
+                  </atributo>
+                  <atributo>
+                    <nome>Tipo de Uso</nome>
+                    <valor>Local Fixo - Fixo</valor>
+                  </atributo>
+                  <atributo>
+                    <nome>Unidade de Franquia</nome>
+                    <valor>Minutos</valor>
+                  </atributo>
+                  <atributo>
+                    <nome>Uso</nome>
+                    <valor>Aquisição</valor>
+                  </atributo>
+                  <atributo>
+                    <nome>Valor da Franquia (F-F)</nome>
+                    <valor/>
+                  </atributo>
+                </listaDeAtributos>
+              </plano>
+              <bloqueios/>
+              <atributos>
+                <atributo>
+                  <nome>Código Nacional</nome>
+                  <valor>55</valor>
+                </atributo>
+                <atributo>
+                  <nome>Código da Localidade</nome>
+                  <valor>5000</valor>
+                </atributo>
+                <atributo>
+                  <nome>Código da Localidade Estação</nome>
+                  <valor>5000</valor>
+                </atributo>
+                <atributo>
+                  <nome>Código da Localidade Fisico</nome>
+                  <valor>5000</valor>
+                </atributo>
+                <atributo>
+                  <nome>Código da Localidade Lista</nome>
+                  <valor>5000</valor>
+                </atributo>
+                <atributo>
+                  <nome>DDD Físico</nome>
+                  <valor>21</valor>
+                </atributo>
+                <atributo>
+                  <nome>DDD Linha</nome>
+                  <valor>21</valor>
+                </atributo>
+                <atributo>
+                  <nome>Estação</nome>
+                  <valor>56707</valor>
+                </atributo>
+                <atributo>
+                  <nome>Estação Literal</nome>
+                  <valor>RJVP</valor>
+                </atributo>
+                <atributo>
+                  <nome>Id Estação</nome>
+                  <valor>4-739CFWD</valor>
+                </atributo>
+                <atributo>
+                  <nome>Localidade Linha</nome>
+                  <valor>5000</valor>
+                </atributo>
+                <atributo>
+                  <nome>Número Físico</nome>
+                  <valor>24424056</valor>
+                </atributo>
+                <atributo>
+                  <nome>Número da Linha</nome>
+                  <valor>24424056</valor>
+                </atributo>
+                <atributo>
+                  <nome>Portabilidade Interna</nome>
+                  <valor>N</valor>
+                </atributo>
+                <atributo>
+                  <nome>Portabilidade Interna com Troca de Tecnologia</nome>
+                  <valor>N</valor>
+                </atributo>
+                <atributo>
+                  <nome>Portabilidade Receptora</nome>
+                  <valor>N</valor>
+                </atributo>
+                <atributo>
+                  <nome>Tipo Meio Acesso</nome>
+                  <valor>Fixa</valor>
+                </atributo>
+              </atributos>
+              <servicosDigitais>
+                <servicoDigital>
+                  <idServico>SVCDIG_COMB1_VOIP</idServico>
+                  <nome>Identificador de Chamadas e Chamada em Espera</nome>
+                  <tipoProduto>Serviço Digital</tipoProduto>
+                  <acao>-</acao>
+                  <idAtivo>4-1XOQHMH4</idAtivo>
+                </servicoDigital>
+              </servicosDigitais>
+              <servicos/>
+              <pacotesAdicionais/>
+            </acesso>
+            <acesso>
+              <idCatalogo>OI_INTERNET</idCatalogo>
+              <idAtivo>4-1XOQHLXE</idAtivo>
+              <nome>Oi Internet</nome>
+              <tipoProduto>Serviço de Internet</tipoProduto>
+              <acao>modificar</acao>
+              <plano>
+                <idCatalogo>VELOC_500MBPS</idCatalogo>
+                <nome>Banda Larga 500MBps</nome>
+                <acao>-</acao>
+                <idAtivo>4-1XOQIOT6</idAtivo>
+                <listaDeAtributos>
+                  <atributo>
+                    <nome>Valor da Velocidade</nome>
+                    <valor>500 MBPS</valor>
+                  </atributo>
+                  <atributo>
+                    <nome>Velocidade Download</nome>
+                    <valor>500</valor>
+                  </atributo>
+                  <atributo>
+                    <nome>Velocidade Upload</nome>
+                    <valor>250</valor>
+                  </atributo>
+                </listaDeAtributos>
+              </plano>
+              <bloqueios/>
+              <atributos>
+                <atributo>
+                  <nome>Tipo Meio Acesso</nome>
+                  <valor>Dados</valor>
+                </atributo>
+              </atributos>
+              <servicosDigitais/>
+              <servicos/>
+              <pacotesAdicionais/>
+            </acesso>
+          </acessos>
+        </requisicao>
+      </_root>
+    </ord:CreateOrder>
+  </soapenv:Body>
+</soapenv:Envelope>

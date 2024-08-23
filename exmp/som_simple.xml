@@ -1,0 +1,84 @@
+<message>
+    <general>
+        <actor>SBL8</actor>
+        <solicitation>4-179219335868</IdPedido>
+        <timeStamp>2024-06-21T07:35:50</timeStamp>
+    </general>
+    <client>
+        <document>10884366766</document>
+        <name>FERNANDA DA SILVA DANTAS</name>
+        <birthDate>1986-06-07</birthDate>
+        <mothername>VANEUZA DA SILVA DANTAS</mothername>
+        <gender>F</gender>
+        <email>teste@email.com</email>
+        <phones>
+            <phone>+5521971185767</phone>
+            <phone>+5521971185768</phone>
+            <phone>+5521971185769</phone>
+        </phones>
+    </client>
+    <accounts>
+        <account>
+            <id>4-1XKKY7HD</id>
+            <corporateReason>FERNANDA DA SILVA DANTAS</corporateReason>
+            <stateRegistration/>
+            <activationDate>2023-08-14</activationDate>
+            <businessUint>207</businessUnit>
+            <marketSegment>RESIDENCIAL</marketSegment>
+            <relationship>BRONZE</relationship>
+            <addressId>4-1XKKYJPP</addressId>
+            <subscriberType>02</subscriberType>
+            <type>Pessoa Física</type>
+        </account>
+    </accounts>
+    <bilingProfiles>
+        <profile>
+            <status>Pendente</status>
+            <id>4-1XOQF5PU</id>
+            <account>499151442493025</account>
+            <governmentType/>
+            <broadcastMedia>1</broadcastMedia>
+            <billType>8</billType>
+            <billCicle>T01</billCicle>
+            <ICMSExemption>N</ICMSExemption>
+            <billingCompany>Fibra</billingCompany>
+            <DACCId>9920126866102</DACCId>
+            <paymentMode>1</paymentMode>
+            <bankName/>
+            <bankNumber/>
+            <agency/>
+            <currentAccount/>
+            <DACCSolStatus/>
+            <billingAddressId>4-1XKKYJPP</billingAddressId>
+            <DACCProtocol>0</DACCProtocol>
+            <DACCDateOption/>
+        </profile>
+    </billingProfiles>
+    <addresses>
+        <address>
+            <id>4-1XKKYJPP</id>
+            <typeOfPatio>RUA</typeOfPatio>
+            <nameStreet>BENTO LISBOA</nameStreet>
+            <number>120</number>
+            <complements>
+                <complement>
+                    <type>AP</type>
+                    <desc>409</desc>
+                </complement>
+                <complement>
+                    <type>BL</type>
+                    <desc>3</desc>
+                </complement>
+            </complements>
+            <neighborhood>CATETE</neighborhood>
+            <locationCode>5000</locationCode>
+            <city>RIO DE JANEIRO</city>
+            <state>RJ</state>
+            <reference/>
+            <zipCode>22221011</zipCode>
+            <cnl>21000</cnl>
+            <streetId>6681</streetId>
+            <localAcronym>RJO</localAcronym>
+        </address>
+    </addresses>
+</message>

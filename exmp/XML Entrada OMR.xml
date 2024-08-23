@@ -1,0 +1,287 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <requisicao>
+            <idPedido>4-179778427182</idPedido>
+            <versao>20240628141900</versao>
+            <nomeBundle>BD_OITOTAL_VoIP+BL</nomeBundle> <!--Regra pra Buscar-->
+            <tipoBundle>Promoção</tipoBundle> <!--Regra pra Buscar-->
+            <tipoPromocao>Oi Total</tipoPromocao> <!--Regra pra Buscar-->
+            <idCatalogo>Dual Play Fibra BL + VoIP</idCatalogo> <!--Regra pra Buscar-->
+            <timestamp>2024-06-28T14:19:58Z</timestamp>
+            <operacoes>
+                <operacao>
+                    <operacao>mudancaEnderecoFTTH</operacao>
+                    <idAtivo>4-22PKCGYU</idAtivo>
+                    <tipoProduto>Promoção</tipoProduto>
+                </operacao>
+            </operacoes>
+            <listaEnderecos>
+                <endereco>
+                    <id>4-26FOYD41</id>
+                    <tipoLogradouro>RUA</tipoLogradouro>
+                    <nomeLogradouro>DAS ACACIAS</nomeLogradouro>
+                    <numero>0</numero>
+                    <tipoComplemento1>QU</tipoComplemento1>
+                    <complemento1>319</complemento1>
+                    <tipoComplemento2>LT</tipoComplemento2>
+                    <complemento2>43</complemento2>
+                    <tipoComplemento3>CA</tipoComplemento3>
+                    <complemento3>2</complemento3>
+                    <codigoLocalidade>21165</codigoLocalidade>
+                    <localidade>MARICA</localidade>
+                    <bairro>CENTRO</bairro>
+                    <cidade>MARICA</cidade>
+                    <estado>RJ</estado>
+                    <pontoDeReferencia>PARALELO A RUA CAJUERO</pontoDeReferencia>
+                    <cep>24900001</cep>
+                    <idLogradouro>20156</idLogradouro>
+                    <siglaLocalidade>MRC</siglaLocalidade>
+                </endereco>
+                <endereco>
+                    <id>4-26KV3M6T</id>
+                    <tipoLogradouro>RUA</tipoLogradouro>
+                    <nomeLogradouro>JOSE AUGUSTO LIMA</nomeLogradouro>
+                    <numero>0</numero>
+                    <tipoComplemento1>QU</tipoComplemento1>
+                    <complemento1>309</complemento1>
+                    <tipoComplemento2>LT</tipoComplemento2>
+                    <complemento2>43</complemento2>
+                    <tipoComplemento3>CA</tipoComplemento3>
+                    <complemento3>2</complemento3>
+                    <codigoLocalidade>21165</codigoLocalidade>
+                    <localidade>MARICA</localidade>
+                    <bairro>JD ATLANTICO CENTRAL</bairro>
+                    <cidade>MARICA</cidade>
+                    <estado>RJ</estado>
+                    <pontoDeReferencia>ANTIGA RUA 65</pontoDeReferencia>
+                    <cep>24934090</cep>
+                    <idLogradouro>21576</idLogradouro>
+                    <siglaLocalidade>MRC</siglaLocalidade>
+                </endereco>
+                <endereco>
+                    <id>4-2AL7FM4Y</id>
+                    <tipoLogradouro>TV</tipoLogradouro>
+                    <nomeLogradouro>JOAQUIM SEABRA</nomeLogradouro>
+                    <numero>42</numero>
+                    <tipoComplemento1>A</tipoComplemento1>
+                    <tipoComplemento2>AP</tipoComplemento2>
+                    <complemento2>106</complemento2>
+                    <tipoComplemento3>BL</tipoComplemento3>
+                    <complemento3>4b</complemento3>
+                    <codigoLocalidade>21256</codigoLocalidade>
+                    <localidade>SAO GONCALO</localidade>
+                    <bairro>NOVA CIDADE</bairro>
+                    <cidade>SAO GONCALO</cidade>
+                    <estado>RJ</estado>
+                    <pontoDeReferencia>Antigo campo Zico</pontoDeReferencia>
+                    <cep>24455440</cep>
+                    <idLogradouro>24179</idLogradouro>
+                    <siglaLocalidade>SGO</siglaLocalidade>
+                </endereco>
+                <endereco>
+                    <id>4-G1UGT13</id>
+                    <tipoLogradouro>RUA</tipoLogradouro>
+                    <nomeLogradouro>BERNARDINO LOPES</nomeLogradouro>
+                    <numero>38</numero>
+                    <complemento3/>
+                    <codigoLocalidade>21256</codigoLocalidade>
+                    <localidade>SAO GONCALO</localidade>
+                    <bairro>NOVA CIDADE</bairro>
+                    <cidade>SAO GONCALO</cidade>
+                    <estado>RJ</estado>
+                    <pontoDeReferencia>RUA LAVANDERIA</pontoDeReferencia>
+                    <cep>24474210</cep>
+                    <idLogradouro>20454</idLogradouro>
+                    <siglaLocalidade>SGO</siglaLocalidade>
+                </endereco>
+                <endereco>
+                    <id>4-JG8IYTN</id>
+                    <tipoLogradouro>TV</tipoLogradouro>
+                    <nomeLogradouro>JOAQUIM SEABRA</nomeLogradouro>
+                    <numero>42</numero>
+                    <tipoComplemento1>BL</tipoComplemento1>
+                    <complemento1>4</complemento1>
+                    <tipoComplemento2>AP</tipoComplemento2>
+                    <complemento2>106</complemento2>
+                    <complemento3/>
+                    <codigoLocalidade>21256</codigoLocalidade>
+                    <localidade>SAO GONCALO</localidade>
+                    <bairro>NOVA CIDADE</bairro>
+                    <cidade>SAO GONCALO</cidade>
+                    <estado>RJ</estado>
+                    <pontoDeReferencia>ANTIGO CAMPO DO ZICO</pontoDeReferencia>
+                    <cep>24455440</cep>
+                    <idLogradouro>24179</idLogradouro>
+                    <siglaLocalidade>SGO</siglaLocalidade>
+                </endereco>
+            </listaEnderecos>
+            <contato>
+                <nome>FERNANDA NUNES GARCIA</nome>
+                <numeroDocumento>11206318740</numeroDocumento>
+                <dataNascimento>1988-07-13T00:00:00-03:00</dataNascimento>
+                <nomeMae>IVETE MARLENE VALENTE NUNES GARCIA</nomeMae>
+                <sexo>F</sexo>
+                <email>fernanda.nunes@sulamerica.com.br</email>
+                <telefoneContato1>+5521967504744</telefoneContato1>
+                <telefoneContato2>+5521967504744</telefoneContato2>
+                <telefoneContato3>+5521967504744</telefoneContato3>
+                <nomeRazaoSocial>FERNANDA NUNES GARCIA</nomeRazaoSocial>
+                <nomeConta>FERNANDA NUNES GARCIA</nomeConta>
+                <unidadeNegocio>207</unidadeNegocio>
+                <segmentoMercado>RESIDENCIAL</segmentoMercado>
+            </contato>
+            <acessos>
+                <acesso>
+                    <idCatalogo>OI_VOIP</idCatalogo>
+                    <idAtivo>4-JK2S3TG</idAtivo>
+                    <nome>Oi VoIP</nome>
+                    <tipoProduto>Linha Telefônica VoIP</tipoProduto>
+                    <acao>modificar</acao>
+                    <plano>
+                        <idCatalogo>OIVOIP_FIXO_SEMLIMITES</idCatalogo>
+                        <nome>Fixo sem limites</nome>
+                        <acao>-</acao>
+                        <listaDeAtributos/>
+                        <idAtivo>4-JK2S3WC</idAtivo>
+                        <unidadeFranquia>Minutos</unidadeFranquia>
+                        <tipoPlano>Pos-Pago</tipoPlano>
+                        <tipoUso>Local Fixo - Fixo</tipoUso>
+                    </plano>
+                    <bloqueios/>
+                    <atributos>
+                        <atributo>
+                            <nome>idAcesso</nome>
+                            <valor>4-2AL7FM4Y</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>portabilidadeReceptora</nome>
+                            <valor>N</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>portabilidadeInterna</nome>
+                            <valor>Y</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>portabilidadeInternaComTrocaDeTecnologia</nome>
+                            <valor>N</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>idAcessoAntigo</nome>
+                            <valor>4-26KV3M6T</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>ddd</nome>
+                            <valor>21</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>numeroLinha</nome>
+                            <valor>26055281</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>dddAntigo</nome>
+                            <valor>21</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>numeroLinhaAntigo</nome>
+                            <valor>26055281</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>id_endereco_inventario</nome>
+                            <valor>4125378</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>movelTitularOiTotal</nome>
+                            <valor>21112491905</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>bundleID</nome>
+                            <valor>1-1LDTZ1GP</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>dataPromessa</nome>
+                            <valor>2024-07-05T11:19:53Z</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>dataIndicador</nome>
+                            <valor>2024-07-05</valor>
+                        </atributo>
+                    </atributos>
+                    <servicos/>
+                    <servicosDigitais>
+                        <servicoDigital>
+                            <idServico>SVCDIG_COMB1_VOIP</idServico>
+                            <nome>Identificador de Chamadas e Chamada em Espera</nome>
+                            <tipoProduto>Serviço Digital</tipoProduto>
+                            <acao>-</acao>
+                            <atributos/>
+                            <idAtivo>4-JK2S3WK</idAtivo>
+                        </servicoDigital>
+                    </servicosDigitais>
+                </acesso>
+                <acesso>
+                    <idCatalogo>OI_INTERNET</idCatalogo>
+                    <idAtivo>4-JK2S3RJ</idAtivo>
+                    <nome>Oi Internet</nome>
+                    <tipoProduto>Serviço de Internet</tipoProduto>
+                    <acao>modificar</acao>
+                    <plano>
+                        <idCatalogo>VELOC_500MBPS</idCatalogo>
+                        <nome>Banda Larga 500MBps</nome>
+                        <acao>-</acao>
+                        <listaDeAtributos>
+                            <atributo>
+                                <nome>velocidadeContratada</nome>
+                                <valor>500 MBPS</valor>
+                            </atributo>
+                            <atributo>
+                                <nome>velocidadeUpload</nome>
+                                <valor>250</valor>
+                            </atributo>
+                            <atributo>
+                                <nome>velocidadeDownload</nome>
+                                <valor>500</valor>
+                            </atributo>
+                        </listaDeAtributos>
+                        <idAtivo>4-22PKCH7D</idAtivo>
+                    </plano>
+                    <bloqueios/>
+                    <atributos>
+                        <atributo>
+                            <nome>idAcesso</nome>
+                            <valor>4-2AL7FM4Y</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>idAcessoAntigo</nome>
+                            <valor>4-26KV3M6T</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>id_endereco_inventario</nome>
+                            <valor>4125378</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>movelTitularOiTotal</nome>
+                            <valor>21112491905</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>bundleID</nome>
+                            <valor>1-1LDTZ1GP</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>dataPromessa</nome>
+                            <valor>2024-07-05T11:19:53Z</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>dataIndicador</nome>
+                            <valor>2024-07-05</valor>
+                        </atributo>
+                    </atributos>
+                    <servicos/>
+                </acesso>
+            </acessos>
+            <codAtividade>61</codAtividade> <!--Regra pra Buscar-->
+            <origemPedido>Contact Center</origemPedido> <!--Regra pra Buscar-->
+        </requisicao>
+    </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,1559 @@
+<?xml version='1.0' encoding='utf-8'?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Body xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <ifac:ProcessarOS xmlns:ifac="http://oi.com.br/ifaceCRM">
+            <Ator>
+                <Sistema>SBL8</Sistema>
+            </Ator>
+            <Pedido>
+                <IdEvento>4-2AL85RKQ</IdEvento>
+                <DataTransacao>2024-06-28</DataTransacao>
+                <IdPedido>4-179778427182</IdPedido>
+                <Versao>20240628141900</Versao>
+                <TimeStamp>2024-06-28T14:19:53</TimeStamp>
+                <ContatoSolicitante>
+                    <CPF>11206318740</CPF>
+                    <Nome>FERNANDA NUNES GARCIA</Nome>
+                    <DtNascimento>1988-07-13</DtNascimento>
+                    <NomeMae>IVETE MARLENE VALENTE NUNES GARCIA</NomeMae>
+                    <Sexo>F</Sexo>
+                    <Email/>
+                    <TelefoneContato1>+5521967504744</TelefoneContato1>
+                    <TelefoneContato2>+5521967504744</TelefoneContato2>
+                    <TelefoneContato3>+5521967504744</TelefoneContato3>
+                </ContatoSolicitante>
+                <ListaDeContaCliente>
+                    <ContaCliente>
+                        <IdConta>4-JG8J1D8</IdConta>
+                        <Status>Pendente</Status>
+                        <NomeRazaoSocial>FERNANDA NUNES GARCIA</NomeRazaoSocial>
+                        <NomeConta>FERNANDA NUNES GARCIA</NomeConta>
+                        <NumeroDoc>11206318740</NumeroDoc>
+                        <TipoDocumento>CPF</TipoDocumento>
+                        <InscricaoEstadual/>
+                        <DataAtivacao>2020-10-20</DataAtivacao>
+                        <UnidadeNegocio>207</UnidadeNegocio>
+                        <SegmentoMercado>RESIDENCIAL</SegmentoMercado>
+                        <Relacionamento>PRATA</Relacionamento>
+                        <CodCNAE/>
+                        <DtNascimento>1988-07-13</DtNascimento>
+                        <NomeMae>IVETE MARLENE VALENTE NUNES GARCIA</NomeMae>
+                        <Sexo>F</Sexo>
+                        <Email/>
+                        <IdEnderecoConta>4-26FOYD41</IdEnderecoConta>
+                        <TipoAssinante>02</TipoAssinante>
+                        <RamoAtividade/>
+                        <Ocupacao>Autonômo</Ocupacao>
+                        <EstadoCivil/>
+                        <TipoConta>Pessoa Física</TipoConta>
+                    </ContaCliente>
+                </ListaDeContaCliente>
+                <ListaDePerfisFatura>
+                    <PerfilFatura>
+                        <Status>Pendente</Status>
+                        <IDPerfil>4-JK2RSJI</IDPerfil>
+                        <NroConta>49942340648364</NroConta>
+                        <TipoGoverno/>
+                        <MidiaEmissao>1</MidiaEmissao>
+                        <TipoFatura>8</TipoFatura>
+                        <CicloFatura>U01</CicloFatura>
+                        <IsencaoICMS>N</IsencaoICMS>
+                        <EmpresaFaturamento>Fibra</EmpresaFaturamento>
+                        <IdentificadorDACC>992046163101</IdentificadorDACC>
+                        <MetodoPagamento>1</MetodoPagamento>
+                        <NomeBanco/>
+                        <NroBanco/>
+                        <Agencia/>
+                        <ContaCorrente/>
+                        <StatusSolicDACC/>
+                        <IdEnderecoCobranca>4-G1UGT13</IdEnderecoCobranca>
+                        <ProtocoloDACC>0</ProtocoloDACC>
+                        <DataOpcaoDACC/>
+                    </PerfilFatura>
+                </ListaDePerfisFatura>
+                <ListaDeEndereco>
+                    <Endereco>
+                        <IdEndereco>4-26FOYD41</IdEndereco>
+                        <TipoLogr>RUA</TipoLogr>
+                        <NomeLogr>DAS ACACIAS</NomeLogr>
+                        <Numero>0</Numero>
+                        <TipoCompl1>QU</TipoCompl1>
+                        <NroCompl1>319</NroCompl1>
+                        <TipoCompl2>LT</TipoCompl2>
+                        <NroCompl2>43</NroCompl2>
+                        <TipoCompl3>CA</TipoCompl3>
+                        <NroCompl3>2</NroCompl3>
+                        <Bairro>CENTRO</Bairro>
+                        <CodLocalidade>8101</CodLocalidade>
+                        <Localidade>MARICA</Localidade>
+                        <Estado>RJ</Estado>
+                        <PontoRef>PARALELO A RUA CAJUERO</PontoRef>
+                        <CEP>24900001</CEP>
+                        <CNL>21165</CNL>
+                        <idLogradouro>20156</idLogradouro>
+                        <SiglaLocalidade>MRC</SiglaLocalidade>
+                    </Endereco>
+                    <Endereco>
+                        <IdEndereco>4-26KV3M6T</IdEndereco>
+                        <TipoLogr>RUA</TipoLogr>
+                        <NomeLogr>JOSE AUGUSTO LIMA</NomeLogr>
+                        <Numero>0</Numero>
+                        <TipoCompl1>QU</TipoCompl1>
+                        <NroCompl1>309</NroCompl1>
+                        <TipoCompl2>LT</TipoCompl2>
+                        <NroCompl2>43</NroCompl2>
+                        <TipoCompl3>CA</TipoCompl3>
+                        <NroCompl3>2</NroCompl3>
+                        <Bairro>JD ATLANTICO CENTRAL</Bairro>
+                        <CodLocalidade>8101</CodLocalidade>
+                        <Localidade>MARICA</Localidade>
+                        <Estado>RJ</Estado>
+                        <PontoRef>ANTIGA RUA 65</PontoRef>
+                        <CEP>24934090</CEP>
+                        <CNL>21165</CNL>
+                        <idLogradouro>21576</idLogradouro>
+                        <SiglaLocalidade>MRC</SiglaLocalidade>
+                    </Endereco>
+                    <Endereco>
+                        <IdEndereco>4-2AL7FM4Y</IdEndereco>
+                        <TipoLogr>TV</TipoLogr>
+                        <NomeLogr>JOAQUIM SEABRA</NomeLogr>
+                        <Numero>42</Numero>
+                        <TipoCompl1>A</TipoCompl1>
+                        <NroCompl1/>
+                        <TipoCompl2>AP</TipoCompl2>
+                        <NroCompl2>106</NroCompl2>
+                        <TipoCompl3>BL</TipoCompl3>
+                        <NroCompl3>4b</NroCompl3>
+                        <Bairro>NOVA CIDADE</Bairro>
+                        <CodLocalidade>8001</CodLocalidade>
+                        <Localidade>SAO GONCALO</Localidade>
+                        <Estado>RJ</Estado>
+                        <PontoRef>Antigo campo Zico</PontoRef>
+                        <CEP>24455440</CEP>
+                        <CNL>21256</CNL>
+                        <idLogradouro>24179</idLogradouro>
+                        <SiglaLocalidade>SGO</SiglaLocalidade>
+                    </Endereco>
+                    <Endereco>
+                        <IdEndereco>4-G1UGT13</IdEndereco>
+                        <TipoLogr>RUA</TipoLogr>
+                        <NomeLogr>BERNARDINO LOPES</NomeLogr>
+                        <Numero>38</Numero>
+                        <TipoCompl1/>
+                        <NroCompl1/>
+                        <TipoCompl2/>
+                        <NroCompl2/>
+                        <TipoCompl3/>
+                        <NroCompl3/>
+                        <Bairro>NOVA CIDADE</Bairro>
+                        <CodLocalidade>8001</CodLocalidade>
+                        <Localidade>SAO GONCALO</Localidade>
+                        <Estado>RJ</Estado>
+                        <PontoRef>RUA LAVANDERIA</PontoRef>
+                        <CEP>24474210</CEP>
+                        <CNL>21256</CNL>
+                        <idLogradouro>20454</idLogradouro>
+                        <SiglaLocalidade>SGO</SiglaLocalidade>
+                    </Endereco>
+                    <Endereco>
+                        <IdEndereco>4-JG8IYTN</IdEndereco>
+                        <TipoLogr>TV</TipoLogr>
+                        <NomeLogr>JOAQUIM SEABRA</NomeLogr>
+                        <Numero>42</Numero>
+                        <TipoCompl1>BL</TipoCompl1>
+                        <NroCompl1>4</NroCompl1>
+                        <TipoCompl2>AP</TipoCompl2>
+                        <NroCompl2>106</NroCompl2>
+                        <TipoCompl3/>
+                        <NroCompl3/>
+                        <Bairro>NOVA CIDADE</Bairro>
+                        <CodLocalidade>8001</CodLocalidade>
+                        <Localidade>SAO GONCALO</Localidade>
+                        <Estado>RJ</Estado>
+                        <PontoRef>ANTIGO CAMPO DO ZICO</PontoRef>
+                        <CEP>24455440</CEP>
+                        <CNL>21256</CNL>
+                        <idLogradouro>24179</idLogradouro>
+                        <SiglaLocalidade>SGO</SiglaLocalidade>
+                    </Endereco>
+                </ListaDeEndereco>
+                <ListaDeItens>
+                    <ItemDaOrdem>
+                        <IdItemRootPedido>4-22PKCGYU</IdItemRootPedido>
+                        <IdItemPedido>4-22PKCGYU</IdItemPedido>
+                        <IdItemPaiPedido/>
+                        <IDPerfilFatura>4-JK2RSJI</IDPerfilFatura>
+                        <IDContaCliente>4-JG8J1D8</IDContaCliente>
+                        <IdAtivo>4-22PKCGYU</IdAtivo>
+                        <Acao>modificar</Acao>
+                        <StatusMeioAcesso>Ativo</StatusMeioAcesso>
+                        <TipoProduto>Promoção</TipoProduto>
+                        <MotivoRetirada/>
+                        <EstornoPortabilidade>N</EstornoPortabilidade>
+                        <SPID/>
+                        <IdCatalogo>Dual Play Fibra BL + VoIP</IdCatalogo>
+                        <Nome>BD_OITOTAL_VoIP+BL</Nome>
+                        <DataInicioServico>2023-12-08T19:34:34</DataInicioServico>
+                        <DataMediacao>2024-04-02T17:36:10</DataMediacao>
+                        <DataIndicador>2024-06-28T17:19:54</DataIndicador>
+                        <DataPromessa>2024-06-28T17:19:54</DataPromessa>
+                        <DataInstalacao/>
+                        <DataRetirada/>
+                        <IdEnderecoInstalacao>4-2AL7FM4Y</IdEnderecoInstalacao>
+                        <Observacoes/>
+                        <Contato>
+                            <CPF>11206318740</CPF>
+                            <Nome>FERNANDA NUNES GARCIA</Nome>
+                            <DtNascimento>1988-07-13</DtNascimento>
+                            <NomeMae>IVETE MARLENE VALENTE NUNES GARCIA</NomeMae>
+                            <Sexo>F</Sexo>
+                            <Email>fernanda.nunes@sulamerica.com.br</Email>
+                            <TelefoneContato1>+5521967504744</TelefoneContato1>
+                            <TelefoneContato2>+5521967504744</TelefoneContato2>
+                            <TelefoneContato3>+5521967504744</TelefoneContato3>
+                        </Contato>
+                        <ListaAtributos/>
+                        <TipoCorrecao/>
+                        <QtdPontosRFOverlay>0</QtdPontosRFOverlay>
+                        <QtdPontosSTBDVRGratis>0</QtdPontosSTBDVRGratis>
+                        <QtdPontosSTBHDGratis>0</QtdPontosSTBHDGratis>
+                        <QtdPontosSTBHDPago>0</QtdPontosSTBHDPago>
+                        <TipoPromocao>Oi Total</TipoPromocao>
+                        <flagBSIM>N</flagBSIM>
+                        <aprazado/>
+                        <codAtividade>61</codAtividade>
+                        <codPendencia/>
+                        <alertaPropensao/>
+                        <origemPedido>Contact Center</origemPedido>
+                    </ItemDaOrdem>
+                    <ItemDaOrdem>
+                        <IdItemRootPedido>4-JK2S3SA</IdItemRootPedido>
+                        <IdItemPedido>4-JK2S3SA</IdItemPedido>
+                        <IdItemPaiPedido>4-JK2S3RJ</IdItemPaiPedido>
+                        <IDPerfilFatura>4-JK2RSJI</IDPerfilFatura>
+                        <IDContaCliente>4-JG8J1D8</IDContaCliente>
+                        <IdAtivo>4-JK2S3SA</IdAtivo>
+                        <Acao>modificar</Acao>
+                        <StatusMeioAcesso>Ativo</StatusMeioAcesso>
+                        <TipoProduto>Cesta de Beneficio</TipoProduto>
+                        <MotivoRetirada/>
+                        <EstornoPortabilidade>N</EstornoPortabilidade>
+                        <SPID/>
+                        <IdCatalogo>OI_BENEFICIOS_INTERNET</IdCatalogo>
+                        <Nome>Oi Benefícios Internet</Nome>
+                        <DataInicioServico>2020-10-20T12:57:34</DataInicioServico>
+                        <DataMediacao>2024-04-02T17:36:04</DataMediacao>
+                        <DataIndicador>2024-06-28T17:19:54</DataIndicador>
+                        <DataPromessa>2024-06-28T17:19:54</DataPromessa>
+                        <DataInstalacao/>
+                        <DataRetirada/>
+                        <IdEnderecoInstalacao>4-2AL7FM4Y</IdEnderecoInstalacao>
+                        <Observacoes/>
+                        <Contato>
+                            <CPF>11206318740</CPF>
+                            <Nome>FERNANDA NUNES GARCIA</Nome>
+                            <DtNascimento>1988-07-13</DtNascimento>
+                            <NomeMae>IVETE MARLENE VALENTE NUNES GARCIA</NomeMae>
+                            <Sexo>F</Sexo>
+                            <Email>fernanda.nunes@sulamerica.com.br</Email>
+                            <TelefoneContato1>+5521967504744</TelefoneContato1>
+                            <TelefoneContato2>+5521967504744</TelefoneContato2>
+                            <TelefoneContato3>+5521967504744</TelefoneContato3>
+                        </Contato>
+                        <ListaAtributos>
+                            <Atributo>
+                                <Nome>Bairro</Nome>
+                                <Valor>NOVA CIDADE</Valor>
+                                <ValorAntigo>JD ATLANTICO CENTRAL</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>CEP</Nome>
+                                <Valor>24455440</Valor>
+                                <ValorAntigo>24934090</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Cidade</Nome>
+                                <Valor>SAO GONCALO</Valor>
+                                <ValorAntigo>MARICA</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Complemento</Nome>
+                                <Valor>A /AP 106/BL 4b</Valor>
+                                <ValorAntigo>QU 309/LT 43/CA 2</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Conta</Nome>
+                                <Valor>49942340648364</Valor>
+                                <ValorAntigo>49942340648364</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Estado</Nome>
+                                <Valor>RJ</Valor>
+                                <ValorAntigo>RJ</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Acesso</Nome>
+                                <Valor>4-2AL7FM4Y</Valor>
+                                <ValorAntigo>4-26KV3M6T</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Conta</Nome>
+                                <Valor>4-JG8J1D8</Valor>
+                                <ValorAntigo>4-JG8J1D8</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Endereço</Nome>
+                                <Valor>4-2AL7FM4Y</Valor>
+                                <ValorAntigo>4-26KV3M6T</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Perfil de Faturamento</Nome>
+                                <Valor>4-JK2RSJI</Valor>
+                                <ValorAntigo>4-JK2RSJI</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id do Produto Associado</Nome>
+                                <Valor/>
+                                <ValorAntigo/>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Inadimplência</Nome>
+                                <Valor>N</Valor>
+                                <ValorAntigo>N</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Logradouro</Nome>
+                                <Valor>JOAQUIM SEABRA</Valor>
+                                <ValorAntigo>JOSE AUGUSTO LIMA</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Market Code</Nome>
+                                <Valor>RJ</Valor>
+                                <ValorAntigo>RJ</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Número</Nome>
+                                <Valor>42</Valor>
+                                <ValorAntigo>0</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Perfil de Faturamento</Nome>
+                                <Valor>6004707467</Valor>
+                                <ValorAntigo>6004707467</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Segmento Conta</Nome>
+                                <Valor>RESIDENCIAL</Valor>
+                                <ValorAntigo>RESIDENCIAL</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Tipo Logradouro</Nome>
+                                <Valor>TV</Valor>
+                                <ValorAntigo>RUA</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Tipo Meio Acesso</Nome>
+                                <Valor>Cesta</Valor>
+                                <ValorAntigo>Cesta</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Tipo de Conta</Nome>
+                                <Valor>Pessoa Física</Valor>
+                                <ValorAntigo>Pessoa Física</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                        </ListaAtributos>
+                        <TipoCorrecao/>
+                        <QtdPontosRFOverlay/>
+                        <QtdPontosSTBDVRGratis/>
+                        <QtdPontosSTBHDGratis/>
+                        <QtdPontosSTBHDPago/>
+                        <TipoPromocao>Oi Total</TipoPromocao>
+                        <flagBSIM>N</flagBSIM>
+                        <aprazado/>
+                        <codAtividade>61</codAtividade>
+                        <codPendencia/>
+                        <alertaPropensao/>
+                        <origemPedido>Contact Center</origemPedido>
+                    </ItemDaOrdem>
+                    <ItemDaOrdem>
+                        <IdItemRootPedido>4-JK2S3SV</IdItemRootPedido>
+                        <IdItemPedido>4-JK2S3SV</IdItemPedido>
+                        <IdItemPaiPedido>4-JK2S3TG</IdItemPaiPedido>
+                        <IDPerfilFatura>4-JK2RSJI</IDPerfilFatura>
+                        <IDContaCliente>4-JG8J1D8</IDContaCliente>
+                        <IdAtivo>4-JK2S3SV</IdAtivo>
+                        <Acao>modificar</Acao>
+                        <StatusMeioAcesso>Ativo</StatusMeioAcesso>
+                        <TipoProduto>Cesta de Beneficio</TipoProduto>
+                        <MotivoRetirada/>
+                        <EstornoPortabilidade>N</EstornoPortabilidade>
+                        <SPID/>
+                        <IdCatalogo>OI_BENEFICIOS_VOIP</IdCatalogo>
+                        <Nome>Oi Benefícios VoIP</Nome>
+                        <DataInicioServico>2020-10-20T12:57:34</DataInicioServico>
+                        <DataMediacao>2024-04-02T17:36:04</DataMediacao>
+                        <DataIndicador>2024-06-28T17:19:54</DataIndicador>
+                        <DataPromessa>2024-06-28T17:19:54</DataPromessa>
+                        <DataInstalacao/>
+                        <DataRetirada/>
+                        <IdEnderecoInstalacao>4-2AL7FM4Y</IdEnderecoInstalacao>
+                        <Observacoes/>
+                        <Contato>
+                            <CPF>11206318740</CPF>
+                            <Nome>FERNANDA NUNES GARCIA</Nome>
+                            <DtNascimento>1988-07-13</DtNascimento>
+                            <NomeMae>IVETE MARLENE VALENTE NUNES GARCIA</NomeMae>
+                            <Sexo>F</Sexo>
+                            <Email>fernanda.nunes@sulamerica.com.br</Email>
+                            <TelefoneContato1>+5521967504744</TelefoneContato1>
+                            <TelefoneContato2>+5521967504744</TelefoneContato2>
+                            <TelefoneContato3>+5521967504744</TelefoneContato3>
+                        </Contato>
+                        <ListaAtributos>
+                            <Atributo>
+                                <Nome>Bairro</Nome>
+                                <Valor>NOVA CIDADE</Valor>
+                                <ValorAntigo>JD ATLANTICO CENTRAL</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>CEP</Nome>
+                                <Valor>24455440</Valor>
+                                <ValorAntigo>24934090</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Cidade</Nome>
+                                <Valor>SAO GONCALO</Valor>
+                                <ValorAntigo>MARICA</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Complemento</Nome>
+                                <Valor>A /AP 106/BL 4b</Valor>
+                                <ValorAntigo>QU 309/LT 43/CA 2</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Conta</Nome>
+                                <Valor>49942340648364</Valor>
+                                <ValorAntigo>49942340648364</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Estado</Nome>
+                                <Valor>RJ</Valor>
+                                <ValorAntigo>RJ</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Acesso</Nome>
+                                <Valor>4-2AL7FM4Y</Valor>
+                                <ValorAntigo>4-26KV3M6T</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Conta</Nome>
+                                <Valor>4-JG8J1D8</Valor>
+                                <ValorAntigo>4-JG8J1D8</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Endereço</Nome>
+                                <Valor>4-2AL7FM4Y</Valor>
+                                <ValorAntigo>4-26KV3M6T</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Perfil de Faturamento</Nome>
+                                <Valor>4-JK2RSJI</Valor>
+                                <ValorAntigo>4-JK2RSJI</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id do Produto Associado</Nome>
+                                <Valor/>
+                                <ValorAntigo/>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Inadimplência</Nome>
+                                <Valor>N</Valor>
+                                <ValorAntigo>N</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Logradouro</Nome>
+                                <Valor>JOAQUIM SEABRA</Valor>
+                                <ValorAntigo>JOSE AUGUSTO LIMA</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Market Code</Nome>
+                                <Valor>RJ</Valor>
+                                <ValorAntigo>RJ</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Número</Nome>
+                                <Valor>42</Valor>
+                                <ValorAntigo>0</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Perfil de Faturamento</Nome>
+                                <Valor>6004707467</Valor>
+                                <ValorAntigo>6004707467</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Segmento Conta</Nome>
+                                <Valor>RESIDENCIAL</Valor>
+                                <ValorAntigo>RESIDENCIAL</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Tipo Logradouro</Nome>
+                                <Valor>TV</Valor>
+                                <ValorAntigo>RUA</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Tipo Meio Acesso</Nome>
+                                <Valor>Cesta</Valor>
+                                <ValorAntigo>Cesta</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Tipo de Conta</Nome>
+                                <Valor>Pessoa Física</Valor>
+                                <ValorAntigo>Pessoa Física</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                        </ListaAtributos>
+                        <TipoCorrecao/>
+                        <QtdPontosRFOverlay/>
+                        <QtdPontosSTBDVRGratis/>
+                        <QtdPontosSTBHDGratis/>
+                        <QtdPontosSTBHDPago/>
+                        <TipoPromocao>Oi Total</TipoPromocao>
+                        <flagBSIM>N</flagBSIM>
+                        <aprazado/>
+                        <codAtividade>61</codAtividade>
+                        <codPendencia/>
+                        <alertaPropensao/>
+                        <origemPedido>Contact Center</origemPedido>
+                    </ItemDaOrdem>
+                    <ItemDaOrdem>
+                        <IdItemRootPedido>4-JK2S3TG</IdItemRootPedido>
+                        <IdItemPedido>4-JK2S3TG</IdItemPedido>
+                        <IdItemPaiPedido>4-22PKCGYU</IdItemPaiPedido>
+                        <IDPerfilFatura>4-JK2RSJI</IDPerfilFatura>
+                        <IDContaCliente>4-JG8J1D8</IDContaCliente>
+                        <IdAtivo>4-JK2S3TG</IdAtivo>
+                        <Acao>modificar</Acao>
+                        <StatusMeioAcesso>Ativo</StatusMeioAcesso>
+                        <TipoProduto>Linha Telefônica VoIP</TipoProduto>
+                        <MotivoRetirada/>
+                        <EstornoPortabilidade>N</EstornoPortabilidade>
+                        <SPID/>
+                        <IdCatalogo>OI_VOIP</IdCatalogo>
+                        <Nome>Oi VoIP</Nome>
+                        <DataInicioServico>2020-10-20T12:57:34</DataInicioServico>
+                        <DataMediacao>2024-04-02T17:36:04</DataMediacao>
+                        <DataIndicador>2024-06-28T17:19:54</DataIndicador>
+                        <DataPromessa>2024-06-28T17:19:54</DataPromessa>
+                        <DataInstalacao/>
+                        <DataRetirada/>
+                        <IdEnderecoInstalacao>4-2AL7FM4Y</IdEnderecoInstalacao>
+                        <Observacoes/>
+                        <Contato>
+                            <CPF>11206318740</CPF>
+                            <Nome>FERNANDA NUNES GARCIA</Nome>
+                            <DtNascimento>1988-07-13</DtNascimento>
+                            <NomeMae>IVETE MARLENE VALENTE NUNES GARCIA</NomeMae>
+                            <Sexo>F</Sexo>
+                            <Email>fernanda.nunes@sulamerica.com.br</Email>
+                            <TelefoneContato1>+5521967504744</TelefoneContato1>
+                            <TelefoneContato2>+5521967504744</TelefoneContato2>
+                            <TelefoneContato3>+5521967504744</TelefoneContato3>
+                        </Contato>
+                        <ListaAtributos>
+                            <Atributo>
+                                <Nome>Bairro</Nome>
+                                <Valor>NOVA CIDADE</Valor>
+                                <ValorAntigo>JD ATLANTICO CENTRAL</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>CEP</Nome>
+                                <Valor>24455440</Valor>
+                                <ValorAntigo>24934090</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Cidade</Nome>
+                                <Valor>SAO GONCALO</Valor>
+                                <ValorAntigo>MARICA</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Classe de Plano</Nome>
+                                <Valor>Residencial</Valor>
+                                <ValorAntigo>Residencial</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Classe de Uso</Nome>
+                                <Valor/>
+                                <ValorAntigo/>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Complemento</Nome>
+                                <Valor>A /AP 106/BL 4b</Valor>
+                                <ValorAntigo>QU 309/LT 43/CA 2</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Conta</Nome>
+                                <Valor>49942340648364</Valor>
+                                <ValorAntigo>49942340648364</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Código Nacional</Nome>
+                                <Valor>55</Valor>
+                                <ValorAntigo>55</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Inteiro</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Código da Localidade</Nome>
+                                <Valor>8001</Valor>
+                                <ValorAntigo>8101</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Código da Localidade Estação</Nome>
+                                <Valor>8001</Valor>
+                                <ValorAntigo>8101</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Código da Localidade Fisico</Nome>
+                                <Valor>8001</Valor>
+                                <ValorAntigo>8001</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Código da Localidade Lista</Nome>
+                                <Valor>8001</Valor>
+                                <ValorAntigo>8001</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>DDD Físico</Nome>
+                                <Valor>21</Valor>
+                                <ValorAntigo>21</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>DDD Linha</Nome>
+                                <Valor>21</Valor>
+                                <ValorAntigo>21</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Estado</Nome>
+                                <Valor>RJ</Valor>
+                                <ValorAntigo>RJ</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Estação</Nome>
+                                <Valor>171645</Valor>
+                                <ValorAntigo>238931</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Estação Literal</Nome>
+                                <Valor>PDVP</Valor>
+                                <ValorAntigo>MMVP</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>GTT</Nome>
+                                <Valor/>
+                                <ValorAntigo/>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Acesso</Nome>
+                                <Valor>4-2AL7FM4Y</Valor>
+                                <ValorAntigo>4-26KV3M6T</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Bundle Oi Total</Nome>
+                                <Valor>1-1LDTZ1GP</Valor>
+                                <ValorAntigo>1-1LDTZ1GP</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Bundle Oi Total Flag</Nome>
+                                <Valor>Y</Valor>
+                                <ValorAntigo>Y</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Bundle Oi Total Vazio</Nome>
+                                <Valor/>
+                                <ValorAntigo/>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Conta</Nome>
+                                <Valor>4-JG8J1D8</Valor>
+                                <ValorAntigo>4-JG8J1D8</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Contato</Nome>
+                                <Valor>11206318740</Valor>
+                                <ValorAntigo>11206318740</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Endereço</Nome>
+                                <Valor>4-2AL7FM4Y</Valor>
+                                <ValorAntigo>4-26KV3M6T</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Estação</Nome>
+                                <Valor>4-8ABT85F</Valor>
+                                <ValorAntigo>4-EU0VEK7</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Item Ordem</Nome>
+                                <Valor>4-JK2S3TG</Valor>
+                                <ValorAntigo>4-JK2S3TG</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Perfil de Faturamento</Nome>
+                                <Valor>4-JK2RSJI</Valor>
+                                <ValorAntigo>4-JK2RSJI</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Reserva</Nome>
+                                <Valor/>
+                                <ValorAntigo>XXX123</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Inadimplência</Nome>
+                                <Valor>N</Valor>
+                                <ValorAntigo>N</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Localidade Linha</Nome>
+                                <Valor>8001</Valor>
+                                <ValorAntigo>8101</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Logradouro</Nome>
+                                <Valor>JOAQUIM SEABRA</Valor>
+                                <ValorAntigo>JOSE AUGUSTO LIMA</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Market Code</Nome>
+                                <Valor>RJ</Valor>
+                                <ValorAntigo>RJ</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Movel Titular Oi Total</Nome>
+                                <Valor>21112491905</Valor>
+                                <ValorAntigo>21112491905</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Número</Nome>
+                                <Valor>42</Valor>
+                                <ValorAntigo>0</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Número Físico</Nome>
+                                <Valor>26055281</Valor>
+                                <ValorAntigo>26055281</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Número da Linha</Nome>
+                                <Valor>26055281</Valor>
+                                <ValorAntigo>26055281</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Oi Chamado Portabilidade</Nome>
+                                <Valor/>
+                                <ValorAntigo/>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Perfil de Faturamento</Nome>
+                                <Valor>6004707467</Valor>
+                                <ValorAntigo>6004707467</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Plano Selecionado</Nome>
+                                <Valor>Y</Valor>
+                                <ValorAntigo>Y</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Portabilidade Interna</Nome>
+                                <Valor>Y</Valor>
+                                <ValorAntigo>Y</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Booleano</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Portabilidade Interna com Troca de Tecnologia</Nome>
+                                <Valor>N</Valor>
+                                <ValorAntigo>N</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Portabilidade Receptora</Nome>
+                                <Valor>N</Valor>
+                                <ValorAntigo>N</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Booleano</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Routing Category</Nome>
+                                <Valor/>
+                                <ValorAntigo/>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Segmento Conta</Nome>
+                                <Valor>RESIDENCIAL</Valor>
+                                <ValorAntigo>RESIDENCIAL</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Tipo Logradouro</Nome>
+                                <Valor>TV</Valor>
+                                <ValorAntigo>RUA</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Tipo Meio Acesso</Nome>
+                                <Valor>Fixa</Valor>
+                                <ValorAntigo>Fixa</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Tipo de Conta</Nome>
+                                <Valor>Pessoa Física</Valor>
+                                <ValorAntigo>Pessoa Física</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>id_endereco_inventario</Nome>
+                                <Valor>4125378</Valor>
+                                <ValorAntigo>4125378</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id_Transacao</Nome>
+                                <Valor/>
+                                <ValorAntigo/>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                        </ListaAtributos>
+                        <TipoCorrecao/>
+                        <QtdPontosRFOverlay/>
+                        <QtdPontosSTBDVRGratis/>
+                        <QtdPontosSTBHDGratis/>
+                        <QtdPontosSTBHDPago/>
+                        <TipoPromocao>Oi Total</TipoPromocao>
+                        <flagBSIM>N</flagBSIM>
+                        <aprazado/>
+                        <codAtividade>61</codAtividade>
+                        <codPendencia/>
+                        <alertaPropensao/>
+                        <origemPedido>Contact Center</origemPedido>
+                    </ItemDaOrdem>
+                    <ItemDaOrdem>
+                        <IdItemRootPedido>4-JK2S3TG</IdItemRootPedido>
+                        <IdItemPedido>4-JK2S3WC</IdItemPedido>
+                        <IdItemPaiPedido>4-JK2S3TG</IdItemPaiPedido>
+                        <IDPerfilFatura/>
+                        <IDContaCliente>4-JG8J1D8</IDContaCliente>
+                        <IdAtivo>4-JK2S3WC</IdAtivo>
+                        <Acao>-</Acao>
+                        <StatusMeioAcesso>Ativo</StatusMeioAcesso>
+                        <TipoProduto>Plano</TipoProduto>
+                        <MotivoRetirada/>
+                        <EstornoPortabilidade>N</EstornoPortabilidade>
+                        <SPID/>
+                        <IdCatalogo>OIVOIP_FIXO_SEMLIMITES</IdCatalogo>
+                        <Nome>Fixo sem limites</Nome>
+                        <DataInicioServico>2024-06-28T14:19:26</DataInicioServico>
+                        <DataMediacao>2020-10-20T12:57:31</DataMediacao>
+                        <DataIndicador>2024-06-28T17:19:54</DataIndicador>
+                        <DataPromessa>2024-06-28T17:19:54</DataPromessa>
+                        <DataInstalacao/>
+                        <DataRetirada/>
+                        <IdEnderecoInstalacao/>
+                        <Observacoes/>
+                        <Contato>
+                            <CPF/>
+                            <Nome/>
+                            <DtNascimento/>
+                            <NomeMae/>
+                            <Sexo/>
+                            <Email/>
+                            <TelefoneContato1/>
+                            <TelefoneContato2/>
+                            <TelefoneContato3/>
+                        </Contato>
+                        <ListaAtributos>
+                            <Atributo>
+                                <Nome>Classe de Plano</Nome>
+                                <Valor>Residencial</Valor>
+                                <ValorAntigo>Residencial</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Segmento</Nome>
+                                <Valor>Qualquer</Valor>
+                                <ValorAntigo>Qualquer</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Tipo de Plano</Nome>
+                                <Valor>Pos-Pago</Valor>
+                                <ValorAntigo>Pos-Pago</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Tipo de Uso</Nome>
+                                <Valor>Local Fixo - Fixo</Valor>
+                                <ValorAntigo>Local Fixo - Fixo</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Unidade de Franquia</Nome>
+                                <Valor>Minutos</Valor>
+                                <ValorAntigo>Minutos</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Uso</Nome>
+                                <Valor>Aquisição</Valor>
+                                <ValorAntigo>Aquisição</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Valor da Franquia (F-F)</Nome>
+                                <Valor/>
+                                <ValorAntigo/>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                        </ListaAtributos>
+                        <TipoCorrecao/>
+                        <QtdPontosRFOverlay/>
+                        <QtdPontosSTBDVRGratis/>
+                        <QtdPontosSTBHDGratis/>
+                        <QtdPontosSTBHDPago/>
+                        <TipoPromocao>Oi Total</TipoPromocao>
+                        <flagBSIM>N</flagBSIM>
+                        <aprazado/>
+                        <codAtividade>61</codAtividade>
+                        <codPendencia/>
+                        <alertaPropensao/>
+                        <origemPedido>Contact Center</origemPedido>
+                    </ItemDaOrdem>
+                    <ItemDaOrdem>
+                        <IdItemRootPedido>4-JK2S3TG</IdItemRootPedido>
+                        <IdItemPedido>4-JK2S3WK</IdItemPedido>
+                        <IdItemPaiPedido>4-JK2S3TG</IdItemPaiPedido>
+                        <IDPerfilFatura/>
+                        <IDContaCliente>4-JG8J1D8</IDContaCliente>
+                        <IdAtivo>4-JK2S3WK</IdAtivo>
+                        <Acao>-</Acao>
+                        <StatusMeioAcesso>Ativo</StatusMeioAcesso>
+                        <TipoProduto>Serviço Digital</TipoProduto>
+                        <MotivoRetirada/>
+                        <EstornoPortabilidade>N</EstornoPortabilidade>
+                        <SPID/>
+                        <IdCatalogo>SVCDIG_COMB1_VOIP</IdCatalogo>
+                        <Nome>Identificador de Chamadas e Chamada em Espera</Nome>
+                        <DataInicioServico>2024-06-28T14:19:26</DataInicioServico>
+                        <DataMediacao>2020-10-20T12:57:31</DataMediacao>
+                        <DataIndicador>2024-06-28T17:19:54</DataIndicador>
+                        <DataPromessa>2024-06-28T17:19:54</DataPromessa>
+                        <DataInstalacao/>
+                        <DataRetirada/>
+                        <IdEnderecoInstalacao/>
+                        <Observacoes/>
+                        <Contato>
+                            <CPF/>
+                            <Nome/>
+                            <DtNascimento/>
+                            <NomeMae/>
+                            <Sexo/>
+                            <Email/>
+                            <TelefoneContato1/>
+                            <TelefoneContato2/>
+                            <TelefoneContato3/>
+                        </Contato>
+                        <ListaAtributos/>
+                        <TipoCorrecao/>
+                        <QtdPontosRFOverlay/>
+                        <QtdPontosSTBDVRGratis/>
+                        <QtdPontosSTBHDGratis/>
+                        <QtdPontosSTBHDPago/>
+                        <TipoPromocao>Oi Total</TipoPromocao>
+                        <flagBSIM>N</flagBSIM>
+                        <aprazado/>
+                        <codAtividade>61</codAtividade>
+                        <codPendencia/>
+                        <alertaPropensao/>
+                        <origemPedido>Contact Center</origemPedido>
+                    </ItemDaOrdem>
+                    <ItemDaOrdem>
+                        <IdItemRootPedido>4-JK2S3RJ</IdItemRootPedido>
+                        <IdItemPedido>4-JK2S3RJ</IdItemPedido>
+                        <IdItemPaiPedido>4-22PKCGYU</IdItemPaiPedido>
+                        <IDPerfilFatura>4-JK2RSJI</IDPerfilFatura>
+                        <IDContaCliente>4-JG8J1D8</IDContaCliente>
+                        <IdAtivo>4-JK2S3RJ</IdAtivo>
+                        <Acao>modificar</Acao>
+                        <StatusMeioAcesso>Ativo</StatusMeioAcesso>
+                        <TipoProduto>Serviço de Internet</TipoProduto>
+                        <MotivoRetirada/>
+                        <EstornoPortabilidade>N</EstornoPortabilidade>
+                        <SPID/>
+                        <IdCatalogo>OI_INTERNET</IdCatalogo>
+                        <Nome>Oi Internet</Nome>
+                        <DataInicioServico>2020-10-20T12:57:34</DataInicioServico>
+                        <DataMediacao>2024-04-02T17:36:04</DataMediacao>
+                        <DataIndicador>2024-06-28T17:19:54</DataIndicador>
+                        <DataPromessa>2024-06-28T17:19:54</DataPromessa>
+                        <DataInstalacao/>
+                        <DataRetirada/>
+                        <IdEnderecoInstalacao>4-2AL7FM4Y</IdEnderecoInstalacao>
+                        <Observacoes/>
+                        <Contato>
+                            <CPF>11206318740</CPF>
+                            <Nome>FERNANDA NUNES GARCIA</Nome>
+                            <DtNascimento>1988-07-13</DtNascimento>
+                            <NomeMae>IVETE MARLENE VALENTE NUNES GARCIA</NomeMae>
+                            <Sexo>F</Sexo>
+                            <Email>fernanda.nunes@sulamerica.com.br</Email>
+                            <TelefoneContato1>+5521967504744</TelefoneContato1>
+                            <TelefoneContato2>+5521967504744</TelefoneContato2>
+                            <TelefoneContato3>+5521967504744</TelefoneContato3>
+                        </Contato>
+                        <ListaAtributos>
+                            <Atributo>
+                                <Nome>Bairro</Nome>
+                                <Valor>NOVA CIDADE</Valor>
+                                <ValorAntigo>JD ATLANTICO CENTRAL</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>CEP</Nome>
+                                <Valor>24455440</Valor>
+                                <ValorAntigo>24934090</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Cidade</Nome>
+                                <Valor>SAO GONCALO</Valor>
+                                <ValorAntigo>MARICA</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Complemento</Nome>
+                                <Valor>A /AP 106/BL 4b</Valor>
+                                <ValorAntigo>QU 309/LT 43/CA 2</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Conta</Nome>
+                                <Valor>49942340648364</Valor>
+                                <ValorAntigo>49942340648364</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Estado</Nome>
+                                <Valor>RJ</Valor>
+                                <ValorAntigo>RJ</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Acesso</Nome>
+                                <Valor>4-2AL7FM4Y</Valor>
+                                <ValorAntigo>4-26KV3M6T</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Bundle Oi Total</Nome>
+                                <Valor>1-1LDTZ1GP</Valor>
+                                <ValorAntigo>1-1LDTZ1GP</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Bundle Oi Total Flag</Nome>
+                                <Valor>Y</Valor>
+                                <ValorAntigo>Y</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Bundle Oi Total Vazio</Nome>
+                                <Valor/>
+                                <ValorAntigo/>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Conta</Nome>
+                                <Valor>4-JG8J1D8</Valor>
+                                <ValorAntigo>4-JG8J1D8</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Contato</Nome>
+                                <Valor>11206318740</Valor>
+                                <ValorAntigo>11206318740</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Endereço</Nome>
+                                <Valor>4-2AL7FM4Y</Valor>
+                                <ValorAntigo>4-26KV3M6T</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Perfil de Faturamento</Nome>
+                                <Valor>4-JK2RSJI</Valor>
+                                <ValorAntigo>4-JK2RSJI</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Reserva</Nome>
+                                <Valor/>
+                                <ValorAntigo>XXX123</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Inadimplência</Nome>
+                                <Valor>N</Valor>
+                                <ValorAntigo>N</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Logradouro</Nome>
+                                <Valor>JOAQUIM SEABRA</Valor>
+                                <ValorAntigo>JOSE AUGUSTO LIMA</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Market Code</Nome>
+                                <Valor>RJ</Valor>
+                                <ValorAntigo>RJ</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Movel Titular Oi Total</Nome>
+                                <Valor>21112491905</Valor>
+                                <ValorAntigo>21112491905</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Número</Nome>
+                                <Valor>42</Valor>
+                                <ValorAntigo>0</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Perfil de Faturamento</Nome>
+                                <Valor>6004707467</Valor>
+                                <ValorAntigo>6004707467</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Segmento Conta</Nome>
+                                <Valor>RESIDENCIAL</Valor>
+                                <ValorAntigo>RESIDENCIAL</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Tipo Logradouro</Nome>
+                                <Valor>TV</Valor>
+                                <ValorAntigo>RUA</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Tipo Meio Acesso</Nome>
+                                <Valor>Dados</Valor>
+                                <ValorAntigo>Dados</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Tipo de Conta</Nome>
+                                <Valor>Pessoa Física</Valor>
+                                <ValorAntigo>Pessoa Física</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>id_endereco_inventario</Nome>
+                                <Valor>4125378</Valor>
+                                <ValorAntigo>4125378</ValorAntigo>
+                                <Acao>modificar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id_Transacao</Nome>
+                                <Valor/>
+                                <ValorAntigo/>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                        </ListaAtributos>
+                        <TipoCorrecao/>
+                        <QtdPontosRFOverlay/>
+                        <QtdPontosSTBDVRGratis/>
+                        <QtdPontosSTBHDGratis/>
+                        <QtdPontosSTBHDPago/>
+                        <TipoPromocao>Oi Total</TipoPromocao>
+                        <flagBSIM>N</flagBSIM>
+                        <aprazado/>
+                        <codAtividade>61</codAtividade>
+                        <codPendencia/>
+                        <alertaPropensao/>
+                        <origemPedido>Contact Center</origemPedido>
+                    </ItemDaOrdem>
+                    <ItemDaOrdem>
+                        <IdItemRootPedido>4-JK2S3RJ</IdItemRootPedido>
+                        <IdItemPedido>4-22PKCH7D</IdItemPedido>
+                        <IdItemPaiPedido>4-JK2S3RJ</IdItemPaiPedido>
+                        <IDPerfilFatura/>
+                        <IDContaCliente>4-JG8J1D8</IDContaCliente>
+                        <IdAtivo>4-22PKCH7D</IdAtivo>
+                        <Acao>-</Acao>
+                        <StatusMeioAcesso>Ativo</StatusMeioAcesso>
+                        <TipoProduto>Velocidade</TipoProduto>
+                        <MotivoRetirada/>
+                        <EstornoPortabilidade>N</EstornoPortabilidade>
+                        <SPID/>
+                        <IdCatalogo>VELOC_500MBPS</IdCatalogo>
+                        <Nome>Banda Larga 500MBps</Nome>
+                        <DataInicioServico>2024-06-28T14:19:26</DataInicioServico>
+                        <DataMediacao>2023-12-08T19:34:29</DataMediacao>
+                        <DataIndicador>2024-06-28T17:19:54</DataIndicador>
+                        <DataPromessa>2024-06-28T17:19:54</DataPromessa>
+                        <DataInstalacao/>
+                        <DataRetirada/>
+                        <IdEnderecoInstalacao/>
+                        <Observacoes/>
+                        <Contato>
+                            <CPF/>
+                            <Nome/>
+                            <DtNascimento/>
+                            <NomeMae/>
+                            <Sexo/>
+                            <Email/>
+                            <TelefoneContato1/>
+                            <TelefoneContato2/>
+                            <TelefoneContato3/>
+                        </Contato>
+                        <ListaAtributos>
+                            <Atributo>
+                                <Nome>Valor da Velocidade</Nome>
+                                <Valor>500 MBPS</Valor>
+                                <ValorAntigo>500 MBPS</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Velocidade Download</Nome>
+                                <Valor>500</Valor>
+                                <ValorAntigo>500</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Número</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Velocidade Upload</Nome>
+                                <Valor>250</Valor>
+                                <ValorAntigo>250</ValorAntigo>
+                                <Acao>-</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                        </ListaAtributos>
+                        <TipoCorrecao/>
+                        <QtdPontosRFOverlay/>
+                        <QtdPontosSTBDVRGratis/>
+                        <QtdPontosSTBHDGratis/>
+                        <QtdPontosSTBHDPago/>
+                        <TipoPromocao>Oi Total</TipoPromocao>
+                        <flagBSIM>N</flagBSIM>
+                        <aprazado/>
+                        <codAtividade>61</codAtividade>
+                        <codPendencia/>
+                        <alertaPropensao/>
+                        <origemPedido>Contact Center</origemPedido>
+                    </ItemDaOrdem>
+                    <ItemDaOrdem>
+                        <IdItemRootPedido>4-JK2S3TG</IdItemRootPedido>
+                        <IdItemPedido>4-2AL7FMI1</IdItemPedido>
+                        <IdItemPaiPedido>4-JK2S3TG</IdItemPaiPedido>
+                        <IDPerfilFatura/>
+                        <IDContaCliente>4-JG8J1D8</IDContaCliente>
+                        <IdAtivo>4-2AL7FMI1</IdAtivo>
+                        <Acao>adicionar</Acao>
+                        <StatusMeioAcesso/>
+                        <TipoProduto>Operação</TipoProduto>
+                        <MotivoRetirada/>
+                        <EstornoPortabilidade>N</EstornoPortabilidade>
+                        <SPID/>
+                        <IdCatalogo>OPER_MUDANCA_ENDERECO</IdCatalogo>
+                        <Nome>Mudança de Endereço</Nome>
+                        <DataIndicador>2024-07-05T14:19:53</DataIndicador>
+                        <DataPromessa>2024-07-05T14:19:53</DataPromessa>
+                        <DataInstalacao/>
+                        <DataRetirada/>
+                        <IdEnderecoInstalacao/>
+                        <Observacoes/>
+                        <Contato>
+                            <CPF/>
+                            <Nome/>
+                            <DtNascimento/>
+                            <NomeMae/>
+                            <Sexo/>
+                            <Email/>
+                            <TelefoneContato1/>
+                            <TelefoneContato2/>
+                            <TelefoneContato3/>
+                        </Contato>
+                        <ListaAtributos/>
+                        <TipoCorrecao/>
+                        <QtdPontosRFOverlay/>
+                        <QtdPontosSTBDVRGratis/>
+                        <QtdPontosSTBHDGratis/>
+                        <QtdPontosSTBHDPago/>
+                        <TipoPromocao>Oi Total</TipoPromocao>
+                        <flagBSIM>N</flagBSIM>
+                        <aprazado/>
+                        <codAtividade>61</codAtividade>
+                        <codPendencia/>
+                        <alertaPropensao/>
+                        <origemPedido>Contact Center</origemPedido>
+                    </ItemDaOrdem>
+                    <ItemDaOrdem>
+                        <IdItemRootPedido>4-JK2S3RJ</IdItemRootPedido>
+                        <IdItemPedido>4-2AL7FMIU</IdItemPedido>
+                        <IdItemPaiPedido>4-JK2S3RJ</IdItemPaiPedido>
+                        <IDPerfilFatura/>
+                        <IDContaCliente>4-JG8J1D8</IDContaCliente>
+                        <IdAtivo>4-2AL7FMIU</IdAtivo>
+                        <Acao>adicionar</Acao>
+                        <StatusMeioAcesso/>
+                        <TipoProduto>Operação</TipoProduto>
+                        <MotivoRetirada/>
+                        <EstornoPortabilidade>N</EstornoPortabilidade>
+                        <SPID/>
+                        <IdCatalogo>OPER_MUDANCA_ENDERECO</IdCatalogo>
+                        <Nome>Mudança de Endereço</Nome>
+                        <DataIndicador>2024-07-05T14:19:53</DataIndicador>
+                        <DataPromessa>2024-07-05T14:19:53</DataPromessa>
+                        <DataInstalacao/>
+                        <DataRetirada/>
+                        <IdEnderecoInstalacao/>
+                        <Observacoes/>
+                        <Contato>
+                            <CPF/>
+                            <Nome/>
+                            <DtNascimento/>
+                            <NomeMae/>
+                            <Sexo/>
+                            <Email/>
+                            <TelefoneContato1/>
+                            <TelefoneContato2/>
+                            <TelefoneContato3/>
+                        </Contato>
+                        <ListaAtributos/>
+                        <TipoCorrecao/>
+                        <QtdPontosRFOverlay/>
+                        <QtdPontosSTBDVRGratis/>
+                        <QtdPontosSTBHDGratis/>
+                        <QtdPontosSTBHDPago/>
+                        <TipoPromocao>Oi Total</TipoPromocao>
+                        <flagBSIM>N</flagBSIM>
+                        <aprazado/>
+                        <codAtividade>61</codAtividade>
+                        <codPendencia/>
+                        <alertaPropensao/>
+                        <origemPedido>Contact Center</origemPedido>
+                    </ItemDaOrdem>
+                </ListaDeItens>
+            </Pedido>
+        </ifac:ProcessarOS>
+    </SOAP-ENV:Body>
+</soapenv:Envelope>

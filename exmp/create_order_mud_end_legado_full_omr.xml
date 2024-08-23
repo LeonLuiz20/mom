@@ -1,0 +1,360 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    <soapenv:Header />
+    <soapenv:Body>
+        <requisicao>
+            <correlationID>190002696287074</correlationID>
+            <idPedido>4-179219335868</idPedido>
+            <versao>20240621073528</versao>
+            <idMensagem>155722831</idMensagem>
+            <nomeBundleOriginal />
+            <tipoBundleOriginal />
+            <tipoPromocaoOriginal />
+            <idCatalogoOriginal />
+            <nomeBundle>BD_OITOTAL_VoIP+BL+IPTV</nomeBundle>
+            <tipoBundle>Promoção</tipoBundle>
+            <tipoPromocao>Oi Total</tipoPromocao>
+            <idCatalogo>Triple Play Fibra</idCatalogo>
+            <timestamp>2024-06-21T07:35:54Z</timestamp>
+            <operacoes>
+                <operacao>
+                    <operacao>mudancaEnderecoFTTH</operacao>
+                    <idAtivo>4-1XOQHLWL</idAtivo>
+                    <tipoProduto>Promoção</tipoProduto>
+                </operacao>
+            </operacoes>
+            <listaEnderecos>
+                <endereco>
+                    <id>4-1XKKYJPP</id>
+                    <tipoLogradouro>RUA</tipoLogradouro>
+                    <nomeLogradouro>BENTO LISBOA</nomeLogradouro>
+                    <numero>120</numero>
+                    <tipoComplemento1>AP</tipoComplemento1>
+                    <complemento1>409</complemento1>
+                    <tipoComplemento2>BL</tipoComplemento2>
+                    <complemento2>3</complemento2>
+                    <complemento3 />
+                    <codigoLocalidade>21000</codigoLocalidade>
+                    <localidade>RIO DE JANEIRO</localidade>
+                    <bairro>CATETE</bairro>
+                    <cidade>RIO DE JANEIRO</cidade>
+                    <estado>RJ</estado>
+                    <pontoDeReferencia />
+                    <cep>22221011</cep>
+                    <idLogradouro>6681</idLogradouro>
+                    <siglaLocalidade>RJO</siglaLocalidade>
+                </endereco>
+                <endereco>
+                    <id>4-1Y27BVS8</id>
+                    <tipoLogradouro>RUA</tipoLogradouro>
+                    <nomeLogradouro>BENTO LISBOA</nomeLogradouro>
+                    <numero>120</numero>
+                    <tipoComplemento1>AP</tipoComplemento1>
+                    <complemento1>409</complemento1>
+                    <tipoComplemento2>BL</tipoComplemento2>
+                    <complemento2>3</complemento2>
+                    <complemento3 />
+                    <codigoLocalidade>21000</codigoLocalidade>
+                    <localidade>RIO DE JANEIRO</localidade>
+                    <bairro>CATETE</bairro>
+                    <cidade>RIO DE JANEIRO</cidade>
+                    <estado>RJ</estado>
+                    <pontoDeReferencia>...</pontoDeReferencia>
+                    <cep>22221011</cep>
+                    <idLogradouro>6681</idLogradouro>
+                    <siglaLocalidade>RJO</siglaLocalidade>
+                </endereco>
+                <endereco>
+                    <id>4-2ABYKCKL</id>
+                    <tipoLogradouro>RUA</tipoLogradouro>
+                    <nomeLogradouro>BENTO LISBOA</nomeLogradouro>
+                    <numero>120</numero>
+                    <tipoComplemento1>BL</tipoComplemento1>
+                    <complemento1>1</complemento1>
+                    <tipoComplemento2>AP</tipoComplemento2>
+                    <complemento2>1201</complemento2>
+                    <tipoComplemento3>A</tipoComplemento3>
+                    <complemento3 />
+                    <codigoLocalidade>21000</codigoLocalidade>
+                    <localidade>RIO DE JANEIRO</localidade>
+                    <bairro>CATETE</bairro>
+                    <cidade>RIO DE JANEIRO</cidade>
+                    <estado>RJ</estado>
+                    <pontoDeReferencia>CONDOMÍNIO QUARTIER CARIOCA</pontoDeReferencia>
+                    <cep>22221011</cep>
+                    <idLogradouro>6681</idLogradouro>
+                    <siglaLocalidade>RJO</siglaLocalidade>
+                </endereco>
+            </listaEnderecos>
+            <contato>
+                <nome>FERNANDA DA SILVA DANTAS</nome>
+                <numeroDocumento>10884366766</numeroDocumento>
+                <dataNascimento>1986-06-07T00:00:00-03:00</dataNascimento>
+                <nomeMae>VANEUZA DA SILVA DANTAS</nomeMae>
+                <sexo>F</sexo>
+                <email>não possui e-mail</email>
+                <telefoneContato1>+5521971185767</telefoneContato1>
+                <telefoneContato2>+5521971185767</telefoneContato2>
+                <telefoneContato3>+5521971185767</telefoneContato3>
+                <nomeRazaoSocial>FERNANDA DA SILVA DANTAS</nomeRazaoSocial>
+                <nomeConta>FERNANDA DA SILVA DANTAS</nomeConta>
+                <unidadeNegocio>207</unidadeNegocio>
+                <segmentoMercado>RESIDENCIAL</segmentoMercado>
+            </contato>
+            <acessos>
+                <acesso>
+                    <idCatalogo>OI_INTERNET</idCatalogo>
+                    <idAtivo>4-1XOQHLXE</idAtivo>
+                    <nome>Oi Internet</nome>
+                    <tipoProduto>Serviço de Internet</tipoProduto>
+                    <acao>modificar</acao>
+                    <idEndereco>4-2ABYKCKL</idEndereco>
+                    <idEnderecoAntigo>4-1Y27BVS8</idEnderecoAntigo>
+                    <plano>
+                        <idCatalogo>VELOC_500MBPS</idCatalogo>
+                        <nome>Banda Larga 500MBps</nome>
+                        <acao>-</acao>
+                        <listaDeAtributos>
+                            <atributo>
+                                <nome>velocidadeContratada</nome>
+                                <valor>500 MBPS</valor>
+                            </atributo>
+                            <atributo>
+                                <nome>velocidadeUpload</nome>
+                                <valor>250</valor>
+                            </atributo>
+                            <atributo>
+                                <nome>velocidadeDownload</nome>
+                                <valor>500</valor>
+                            </atributo>
+                        </listaDeAtributos>
+                        <idAtivo>4-1XOQIOT6</idAtivo>
+                    </plano>
+                    <bloqueios />
+                    <atributos>
+                        <atributo>
+                            <nome>idAcesso</nome>
+                            <valor>4-2ABYKCKL</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>idAcessoAntigo</nome>
+                            <valor>4-1Y27BVS8</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>id_endereco_inventario</nome>
+                            <valor>12028154</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>movelTitularOiTotal</nome>
+                            <valor>21113892908</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>bundleID</nome>
+                            <valor>1-1X11SUEH</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>dataPromessa</nome>
+                            <valor>2024-06-28T04:35:50Z</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>dataIndicador</nome>
+                            <valor>2024-06-28</valor>
+                        </atributo>
+                    </atributos>
+                    <servicos />
+                </acesso>
+                <acesso>
+                    <idCatalogo>OI_IPTV</idCatalogo>
+                    <idAtivo>4-1XOQHLWM</idAtivo>
+                    <nome>Oi IPTV</nome>
+                    <tipoProduto>Serviço de TV</tipoProduto>
+                    <acao>modificar</acao>
+                    <idEndereco>4-2ABYKCKL</idEndereco>
+                    <idEnderecoAntigo>4-1Y27BVS8</idEnderecoAntigo>
+                    <plano>
+                        <idCatalogo>PCT_CANAL_TOTAL_HD</idCatalogo>
+                        <nome>Total HD</nome>
+                        <acao>-</acao>
+                        <listaDeAtributos />
+                        <idAtivo>4-1XOQIOGA</idAtivo>
+                        <qtdPontosRFOverlay>0</qtdPontosRFOverlay>
+                        <qtdPontosSTBDVRGratis>1</qtdPontosSTBDVRGratis>
+                        <qtdPontosSTBHDGratis>1</qtdPontosSTBHDGratis>
+                        <qtdPontosSTBHDPago>4</qtdPontosSTBHDPago>
+                    </plano>
+                    <bloqueios />
+                    <atributos>
+                        <atributo>
+                            <nome>idAcesso</nome>
+                            <valor>4-2ABYKCKL</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>idAcessoAntigo</nome>
+                            <valor>4-1Y27BVS8</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>id_endereco_inventario</nome>
+                            <valor>12028154</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>movelTitularOiTotal</nome>
+                            <valor>21113892908</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>bundleID</nome>
+                            <valor>1-1X11SUEH</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>dataPromessa</nome>
+                            <valor>2024-06-28T04:35:50Z</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>dataIndicador</nome>
+                            <valor>2024-06-28</valor>
+                        </atributo>
+                    </atributos>
+                    <servicos>
+                        <servico>
+                            <idCatalogo>SVCTV_PONTO_STB_HD_GRATIS</idCatalogo>
+                            <nome>Ponto STB HD Grátis</nome>
+                            <tipoProduto>Serviço</tipoProduto>
+                            <acao>-</acao>
+                            <atributos>
+                                <atributo>
+                                    <nome>Tecnologia</nome>
+                                    <valor>HD</valor>
+                                </atributo>
+                                <atributo>
+                                    <nome>Tipo</nome>
+                                    <valor>STB</valor>
+                                </atributo>
+                            </atributos>
+                            <idAtivo>4-1XOQIOHE</idAtivo>
+                        </servico>
+                        <servico>
+                            <idCatalogo>SVCTV_PONTO_STB_HD_PAGO</idCatalogo>
+                            <nome>Ponto STB HD Pago</nome>
+                            <tipoProduto>Serviço</tipoProduto>
+                            <acao>-</acao>
+                            <atributos>
+                                <atributo>
+                                    <nome>Tecnologia</nome>
+                                    <valor>HD</valor>
+                                </atributo>
+                                <atributo>
+                                    <nome>Tipo</nome>
+                                    <valor>STB</valor>
+                                </atributo>
+                            </atributos>
+                            <idAtivo>4-1XOQIOKT</idAtivo>
+                        </servico>
+                    </servicos>
+                    <pacotesAdicionais>
+                        <pacoteAdicional>
+                            <idCatalogo>PCT_CANAL_ADIC_PFCCOMP</idCatalogo>
+                            <nome>PFC Completo</nome>
+                            <tipoProduto>Pacote de Canal Adicional</tipoProduto>
+                            <acao>-</acao>
+                            <atributos />
+                            <idAtivo>4-2105VZK6</idAtivo>
+                        </pacoteAdicional>
+                    </pacotesAdicionais>
+                </acesso>
+                <acesso>
+                    <idCatalogo>OI_VOIP</idCatalogo>
+                    <idAtivo>4-1XOQHLZW</idAtivo>
+                    <nome>Oi VoIP</nome>
+                    <tipoProduto>Linha Telefônica VoIP</tipoProduto>
+                    <acao>modificar</acao>
+                    <idEndereco>4-2ABYKCKL</idEndereco>
+                    <idEnderecoAntigo>4-1Y27BVS8</idEnderecoAntigo>
+                    <plano>
+                        <idCatalogo>OIVOIP_FIXO_SEMLIMITES</idCatalogo>
+                        <nome>Fixo sem limites</nome>
+                        <acao>-</acao>
+                        <listaDeAtributos />
+                        <idAtivo>4-1XOQHMGC</idAtivo>
+                        <unidadeFranquia>Minutos</unidadeFranquia>
+                        <tipoPlano>Pos-Pago</tipoPlano>
+                        <tipoUso>Local Fixo - Fixo</tipoUso>
+                    </plano>
+                    <bloqueios />
+                    <atributos>
+                        <atributo>
+                            <nome>idAcesso</nome>
+                            <valor>4-2ABYKCKL</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>portabilidadeReceptora</nome>
+                            <valor>N</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>portabilidadeInterna</nome>
+                            <valor>N</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>portabilidadeInternaComTrocaDeTecnologia</nome>
+                            <valor>N</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>idAcessoAntigo</nome>
+                            <valor>4-1Y27BVS8</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>ddd</nome>
+                            <valor>21</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>numeroLinha</nome>
+                            <valor>24424056</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>dddAntigo</nome>
+                            <valor>21</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>numeroLinhaAntigo</nome>
+                            <valor>24424056</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>id_endereco_inventario</nome>
+                            <valor>12028154</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>movelTitularOiTotal</nome>
+                            <valor>21113892908</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>bundleID</nome>
+                            <valor>1-1X11SUEH</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>dataPromessa</nome>
+                            <valor>2024-06-28T04:35:50Z</valor>
+                        </atributo>
+                        <atributo>
+                            <nome>dataIndicador</nome>
+                            <valor>2024-06-28</valor>
+                        </atributo>
+                    </atributos>
+                    <servicos />
+                    <servicosDigitais>
+                        <servicoDigital>
+                            <idServico>SVCDIG_COMB1_VOIP</idServico>
+                            <nome>Identificador de Chamadas e Chamada em Espera</nome>
+                            <tipoProduto>Serviço Digital</tipoProduto>
+                            <acao>-</acao>
+                            <atributos />
+                            <idAtivo>4-1XOQHMH4</idAtivo>
+                        </servicoDigital>
+                    </servicosDigitais>
+                </acesso>
+            </acessos>
+            <flagBSIM>N</flagBSIM>
+            <codAtividade>63</codAtividade>
+            <origemPedido>Contact Center</origemPedido>
+            <checkOperation>0</checkOperation>
+            <churnRequest>0</churnRequest>
+        </requisicao>
+    </soapenv:Body>
+</soapenv:Envelope>

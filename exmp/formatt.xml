@@ -1,0 +1,716 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Body xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <ifac:ProcessarOS xmlns:ifac="http://oi.com.br/ifaceCRM">
+            <Ator>
+                <Sistema>SBL8</Sistema>
+            </Ator>
+            <Pedido>
+                <IdEvento>4-2A88OL0V</IdEvento>
+                <DataTransacao>2024-06-18</DataTransacao>
+                <IdPedido>4-178992590360</IdPedido>
+                <Versao>20240618095915</Versao>
+                <TimeStamp>2024-06-18T10:00:22</TimeStamp>
+                <ContatoSolicitante>
+                    <CPF>92784550753</CPF>
+                    <Nome>IRENE PROVISANO CUNHA</Nome>
+                    <DtNascimento>1956-09-28</DtNascimento>
+                    <NomeMae>MARIA DO CARMO DIAS PROVISANO</NomeMae>
+                    <Sexo>F</Sexo>
+                    <Email/>
+                    <TelefoneContato1>+5521999461862</TelefoneContato1>
+                    <TelefoneContato2>+5521999461862</TelefoneContato2>
+                    <TelefoneContato3/>
+                </ContatoSolicitante>
+                <ListaDeContaCliente>
+                    <ContaCliente>
+                        <IdConta>4-DAXMA1H</IdConta>
+                        <Status>Pendente</Status>
+                        <NomeRazaoSocial>IRENE PROVISANO CUNHA</NomeRazaoSocial>
+                        <NomeConta>IRENE PROVISANO CUNHA</NomeConta>
+                        <NumeroDoc>92784550753</NumeroDoc>
+                        <TipoDocumento>CPF</TipoDocumento>
+                        <InscricaoEstadual/>
+                        <DataAtivacao>2020-04-02</DataAtivacao>
+                        <UnidadeNegocio>207</UnidadeNegocio>
+                        <SegmentoMercado>RESIDENCIAL</SegmentoMercado>
+                        <Relacionamento>NOVO CLIENTE</Relacionamento>
+                        <CodCNAE/>
+                        <DtNascimento>1956-09-28</DtNascimento>
+                        <NomeMae>MARIA DO CARMO DIAS PROVISANO</NomeMae>
+                        <Sexo>F</Sexo>
+                        <Email/>
+                        <IdEnderecoConta>4-EBCR3Z1</IdEnderecoConta>
+                        <TipoAssinante>02</TipoAssinante>
+                        <RamoAtividade/>
+                        <Ocupacao>Assalariado</Ocupacao>
+                        <EstadoCivil/>
+                        <TipoConta>Pessoa Física</TipoConta>
+                    </ContaCliente>
+                </ListaDeContaCliente>
+                <ListaDePerfisFatura>
+                    <PerfilFatura>
+                        <Status>Pendente</Status>
+                        <IDPerfil>4-2A4MFZZS</IDPerfil>
+                        <NroConta>49928959298901</NroConta>
+                        <TipoGoverno/>
+                        <MidiaEmissao>1</MidiaEmissao>
+                        <TipoFatura>8</TipoFatura>
+                        <CicloFatura>U01</CicloFatura>
+                        <IsencaoICMS>N</IsencaoICMS>
+                        <EmpresaFaturamento>Fibra</EmpresaFaturamento>
+                        <IdentificadorDACC>982010129394</IdentificadorDACC>
+                        <MetodoPagamento>1</MetodoPagamento>
+                        <NomeBanco/>
+                        <NroBanco/>
+                        <Agencia/>
+                        <ContaCorrente/>
+                        <StatusSolicDACC/>
+                        <IdEnderecoCobranca>4-EBCR3Z1</IdEnderecoCobranca>
+                        <ProtocoloDACC>0</ProtocoloDACC>
+                        <DataOpcaoDACC/>
+                    </PerfilFatura>
+                </ListaDePerfisFatura>
+                <ListaDeEndereco>
+                    <Endereco>
+                        <IdEndereco>4-EBCR3Z1</IdEndereco>
+                        <TipoLogr>RUA</TipoLogr>
+                        <NomeLogr>GUILHERME SANTOS ANDRADE</NomeLogr>
+                        <Numero>824</Numero>
+                        <TipoCompl1>CA</TipoCompl1>
+                        <NroCompl1>1</NroCompl1>
+                        <TipoCompl2/>
+                        <NroCompl2/>
+                        <TipoCompl3/>
+                        <NroCompl3/>
+                        <Bairro>GALO BRANCO</Bairro>
+                        <CodLocalidade>8001</CodLocalidade>
+                        <Localidade>SAO GONCALO</Localidade>
+                        <Estado>RJ</Estado>
+                        <PontoRef>CASA</PontoRef>
+                        <CEP>24422330</CEP>
+                        <CNL>21256</CNL>
+                        <idLogradouro>22089</idLogradouro>
+                        <SiglaLocalidade>SGO</SiglaLocalidade>
+                    </Endereco>
+                </ListaDeEndereco>
+                <ListaDeItens>
+                    <ItemDaOrdem>
+                        <IdItemRootPedido>4-2A87KER0</IdItemRootPedido>
+                        <IdItemPedido>4-2A87KER0</IdItemPedido>
+                        <IdItemPaiPedido/>
+                        <IDPerfilFatura>4-2A4MFZZS</IDPerfilFatura>
+                        <IDContaCliente>4-DAXMA1H</IDContaCliente>
+                        <IdAtivo>4-2A87KER0</IdAtivo>
+                        <Acao>adicionar</Acao>
+                        <StatusMeioAcesso/>
+                        <TipoProduto>Promoção</TipoProduto>
+                        <MotivoRetirada/>
+                        <EstornoPortabilidade>N</EstornoPortabilidade>
+                        <SPID/>
+                        <IdCatalogo>Single Play Fibra TV</IdCatalogo>
+                        <Nome>DESMEMBRAMENTO_INVOL_PORT_OITOTAL_1P_IPTV</Nome>
+                        <DataIndicador>2024-06-25T10:00:22</DataIndicador>
+                        <DataPromessa>2024-06-25T10:00:22</DataPromessa>
+                        <DataInstalacao>2024-06-18T09:50:05</DataInstalacao>
+                        <DataRetirada/>
+                        <IdEnderecoInstalacao>4-EBCR3Z1</IdEnderecoInstalacao>
+                        <Observacoes/>
+                        <Contato>
+                            <CPF>92784550753</CPF>
+                            <Nome>IRENE PROVISANO CUNHA</Nome>
+                            <DtNascimento>1956-09-28</DtNascimento>
+                            <NomeMae>MARIA DO CARMO DIAS PROVISANO</NomeMae>
+                            <Sexo>F</Sexo>
+                            <Email>ireneprovenzanoprovenzano@gmail.com</Email>
+                            <TelefoneContato1>+5521999461862</TelefoneContato1>
+                            <TelefoneContato2>+5521999461862</TelefoneContato2>
+                            <TelefoneContato3/>
+                        </Contato>
+                        <ListaAtributos/>
+                        <TipoCorrecao/>
+                        <QtdPontosRFOverlay>0</QtdPontosRFOverlay>
+                        <QtdPontosSTBDVRGratis>1</QtdPontosSTBDVRGratis>
+                        <QtdPontosSTBHDGratis>1</QtdPontosSTBHDGratis>
+                        <QtdPontosSTBHDPago>3</QtdPontosSTBHDPago>
+                        <TipoPromocao>Alone</TipoPromocao>
+                        <flagBSIM>N</flagBSIM>
+                        <aprazado/>
+                        <codAtividade>2</codAtividade>
+                        <codPendencia/>
+                        <alertaPropensao/>
+                        <origemPedido>Contact Center</origemPedido>
+                    </ItemDaOrdem>
+                    <ItemDaOrdem>
+                        <IdItemRootPedido>4-2A8826HS</IdItemRootPedido>
+                        <IdItemPedido>4-2A8826HS</IdItemPedido>
+                        <IdItemPaiPedido>4-2A87KER0</IdItemPaiPedido>
+                        <IDPerfilFatura>4-2A4MFZZS</IDPerfilFatura>
+                        <IDContaCliente>4-DAXMA1H</IDContaCliente>
+                        <IdAtivo>4-2A8826HS</IdAtivo>
+                        <Acao>adicionar</Acao>
+                        <StatusMeioAcesso/>
+                        <TipoProduto>Serviço de TV</TipoProduto>
+                        <MotivoRetirada/>
+                        <EstornoPortabilidade>N</EstornoPortabilidade>
+                        <SPID/>
+                        <IdCatalogo>OI_IPTV</IdCatalogo>
+                        <Nome>Oi IPTV</Nome>
+                        <DataIndicador>2024-06-25T10:00:22</DataIndicador>
+                        <DataPromessa>2024-06-25T10:00:22</DataPromessa>
+                        <DataInstalacao/>
+                        <DataRetirada/>
+                        <IdEnderecoInstalacao>4-EBCR3Z1</IdEnderecoInstalacao>
+                        <Observacoes/>
+                        <Contato>
+                            <CPF>92784550753</CPF>
+                            <Nome>IRENE PROVISANO CUNHA</Nome>
+                            <DtNascimento>1956-09-28</DtNascimento>
+                            <NomeMae>MARIA DO CARMO DIAS PROVISANO</NomeMae>
+                            <Sexo>F</Sexo>
+                            <Email>ireneprovenzanoprovenzano@gmail.com</Email>
+                            <TelefoneContato1>+5521999461862</TelefoneContato1>
+                            <TelefoneContato2>+5521999461862</TelefoneContato2>
+                            <TelefoneContato3/>
+                        </Contato>
+                        <ListaAtributos>
+                            <Atributo>
+                                <Nome>Bairro</Nome>
+                                <Valor>GALO BRANCO</Valor>
+                                <ValorAntigo>GALO BRANCO</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>CEP</Nome>
+                                <Valor>24422330</Valor>
+                                <ValorAntigo>24422330</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Cidade</Nome>
+                                <Valor>SAO GONCALO</Valor>
+                                <ValorAntigo>SAO GONCALO</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Complemento</Nome>
+                                <Valor>CA 1</Valor>
+                                <ValorAntigo>CA 1</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Conta</Nome>
+                                <Valor>49928959298901</Valor>
+                                <ValorAntigo>49928959298901</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Desmembramento</Nome>
+                                <Valor/>
+                                <ValorAntigo/>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Booleano</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Estado</Nome>
+                                <Valor>RJ</Valor>
+                                <ValorAntigo>RJ</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Acesso</Nome>
+                                <Valor>4-EBCR3Z1</Valor>
+                                <ValorAntigo>4-EBCR3Z1</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Bundle Oi Total</Nome>
+                                <Valor/>
+                                <ValorAntigo/>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Bundle Oi Total Flag</Nome>
+                                <Valor>N</Valor>
+                                <ValorAntigo>N</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Bundle Oi Total Vazio</Nome>
+                                <Valor/>
+                                <ValorAntigo/>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Conta</Nome>
+                                <Valor>4-DAXMA1H</Valor>
+                                <ValorAntigo>4-DAXMA1H</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Contato</Nome>
+                                <Valor>92784550753</Valor>
+                                <ValorAntigo>92784550753</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Endereço</Nome>
+                                <Valor>4-EBCR3Z1</Valor>
+                                <ValorAntigo>4-EBCR3Z1</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Perfil de Faturamento</Nome>
+                                <Valor>4-2A4MFZZS</Valor>
+                                <ValorAntigo>4-2A4MFZZS</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Reserva</Nome>
+                                <Valor/>
+                                <ValorAntigo>XXX123</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Inadimplência</Nome>
+                                <Valor>N</Valor>
+                                <ValorAntigo>N</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Logradouro</Nome>
+                                <Valor>GUILHERME SANTOS ANDRADE</Valor>
+                                <ValorAntigo>GUILHERME SANTOS ANDRADE</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Market Code</Nome>
+                                <Valor>RJ</Valor>
+                                <ValorAntigo>RJ</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Movel Titular Oi Total</Nome>
+                                <Valor/>
+                                <ValorAntigo/>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Número</Nome>
+                                <Valor>824</Valor>
+                                <ValorAntigo>824</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Perfil de Faturamento</Nome>
+                                <Valor>6014018892</Valor>
+                                <ValorAntigo>6014018892</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Segmento Conta</Nome>
+                                <Valor>RESIDENCIAL</Valor>
+                                <ValorAntigo>RESIDENCIAL</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Tipo Logradouro</Nome>
+                                <Valor>RUA</Valor>
+                                <ValorAntigo>RUA</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Tipo Meio Acesso</Nome>
+                                <Valor>IPTV</Valor>
+                                <ValorAntigo>IPTV</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Tipo de Conta</Nome>
+                                <Valor>Pessoa Física</Valor>
+                                <ValorAntigo>Pessoa Física</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>id_endereco_inventario</Nome>
+                                <Valor>3272383</Valor>
+                                <ValorAntigo>3272383</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id_Transacao</Nome>
+                                <Valor/>
+                                <ValorAntigo/>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                        </ListaAtributos>
+                        <TipoCorrecao/>
+                        <QtdPontosRFOverlay/>
+                        <QtdPontosSTBDVRGratis/>
+                        <QtdPontosSTBHDGratis/>
+                        <QtdPontosSTBHDPago/>
+                        <TipoPromocao>Alone</TipoPromocao>
+                        <flagBSIM>N</flagBSIM>
+                        <aprazado/>
+                        <codAtividade>2</codAtividade>
+                        <codPendencia/>
+                        <alertaPropensao/>
+                        <origemPedido>Contact Center</origemPedido>
+                    </ItemDaOrdem>
+                    <ItemDaOrdem>
+                        <IdItemRootPedido>4-2A8826HS</IdItemRootPedido>
+                        <IdItemPedido>4-2A8826IQ</IdItemPedido>
+                        <IdItemPaiPedido>4-2A8826HS</IdItemPaiPedido>
+                        <IDPerfilFatura/>
+                        <IDContaCliente>4-DAXMA1H</IDContaCliente>
+                        <IdAtivo>4-2A8826IQ</IdAtivo>
+                        <Acao>adicionar</Acao>
+                        <StatusMeioAcesso/>
+                        <TipoProduto>Pacote de Canal Linear</TipoProduto>
+                        <MotivoRetirada/>
+                        <EstornoPortabilidade>N</EstornoPortabilidade>
+                        <SPID/>
+                        <IdCatalogo>PCT_CANAL_MIX_HD</IdCatalogo>
+                        <Nome>Mix HD</Nome>
+                        <DataIndicador>2024-06-18T13:00:22</DataIndicador>
+                        <DataPromessa>2024-06-18T13:00:22</DataPromessa>
+                        <DataInstalacao/>
+                        <DataRetirada/>
+                        <IdEnderecoInstalacao/>
+                        <Observacoes/>
+                        <Contato>
+                            <CPF/>
+                            <Nome/>
+                            <DtNascimento/>
+                            <NomeMae/>
+                            <Sexo/>
+                            <Email/>
+                            <TelefoneContato1/>
+                            <TelefoneContato2/>
+                            <TelefoneContato3/>
+                        </Contato>
+                        <ListaAtributos>
+                            <Atributo>
+                                <Nome>Qualidade</Nome>
+                                <Valor>HD</Valor>
+                                <ValorAntigo>HD</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Quantidade de Canais</Nome>
+                                <Valor>70</Valor>
+                                <ValorAntigo>70</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Número</TipoDados>
+                            </Atributo>
+                        </ListaAtributos>
+                        <TipoCorrecao/>
+                        <QtdPontosRFOverlay/>
+                        <QtdPontosSTBDVRGratis/>
+                        <QtdPontosSTBHDGratis/>
+                        <QtdPontosSTBHDPago/>
+                        <TipoPromocao>Alone</TipoPromocao>
+                        <flagBSIM>N</flagBSIM>
+                        <aprazado/>
+                        <codAtividade>2</codAtividade>
+                        <codPendencia/>
+                        <alertaPropensao/>
+                        <origemPedido>Contact Center</origemPedido>
+                    </ItemDaOrdem>
+                    <ItemDaOrdem>
+                        <IdItemRootPedido>4-2A8826IU</IdItemRootPedido>
+                        <IdItemPedido>4-2A8826IU</IdItemPedido>
+                        <IdItemPaiPedido>4-2A8826HS</IdItemPaiPedido>
+                        <IDPerfilFatura>4-2A4MFZZS</IDPerfilFatura>
+                        <IDContaCliente>4-DAXMA1H</IDContaCliente>
+                        <IdAtivo>4-2A8826IU</IdAtivo>
+                        <Acao>adicionar</Acao>
+                        <StatusMeioAcesso/>
+                        <TipoProduto>Cesta de Beneficio</TipoProduto>
+                        <MotivoRetirada/>
+                        <EstornoPortabilidade>N</EstornoPortabilidade>
+                        <SPID/>
+                        <IdCatalogo>OI_BENEFICIOS_IPTV</IdCatalogo>
+                        <Nome>Oi Benefícios IPTV</Nome>
+                        <DataIndicador>2024-06-18T13:00:22</DataIndicador>
+                        <DataPromessa>2024-06-18T13:00:22</DataPromessa>
+                        <DataInstalacao/>
+                        <DataRetirada/>
+                        <IdEnderecoInstalacao>4-EBCR3Z1</IdEnderecoInstalacao>
+                        <Observacoes/>
+                        <Contato>
+                            <CPF>92784550753</CPF>
+                            <Nome>IRENE PROVISANO CUNHA</Nome>
+                            <DtNascimento>1956-09-28</DtNascimento>
+                            <NomeMae>MARIA DO CARMO DIAS PROVISANO</NomeMae>
+                            <Sexo>F</Sexo>
+                            <Email>ireneprovenzanoprovenzano@gmail.com</Email>
+                            <TelefoneContato1>+5521999461862</TelefoneContato1>
+                            <TelefoneContato2>+5521999461862</TelefoneContato2>
+                            <TelefoneContato3/>
+                        </Contato>
+                        <ListaAtributos>
+                            <Atributo>
+                                <Nome>Bairro</Nome>
+                                <Valor>GALO BRANCO</Valor>
+                                <ValorAntigo>GALO BRANCO</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>CEP</Nome>
+                                <Valor>24422330</Valor>
+                                <ValorAntigo>24422330</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Cidade</Nome>
+                                <Valor>SAO GONCALO</Valor>
+                                <ValorAntigo>SAO GONCALO</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Complemento</Nome>
+                                <Valor>CA 1</Valor>
+                                <ValorAntigo>CA 1</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Conta</Nome>
+                                <Valor>49928959298901</Valor>
+                                <ValorAntigo>49928959298901</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Estado</Nome>
+                                <Valor>RJ</Valor>
+                                <ValorAntigo>RJ</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Acesso</Nome>
+                                <Valor>4-EBCR3Z1</Valor>
+                                <ValorAntigo>4-EBCR3Z1</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Conta</Nome>
+                                <Valor>4-DAXMA1H</Valor>
+                                <ValorAntigo>4-DAXMA1H</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Endereço</Nome>
+                                <Valor>4-EBCR3Z1</Valor>
+                                <ValorAntigo>4-EBCR3Z1</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id Perfil de Faturamento</Nome>
+                                <Valor>4-2A4MFZZS</Valor>
+                                <ValorAntigo>4-2A4MFZZS</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Id do Produto Associado</Nome>
+                                <Valor/>
+                                <ValorAntigo/>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Inadimplência</Nome>
+                                <Valor>N</Valor>
+                                <ValorAntigo>N</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Logradouro</Nome>
+                                <Valor>GUILHERME SANTOS ANDRADE</Valor>
+                                <ValorAntigo>GUILHERME SANTOS ANDRADE</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Market Code</Nome>
+                                <Valor>RJ</Valor>
+                                <ValorAntigo>RJ</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Número</Nome>
+                                <Valor>824</Valor>
+                                <ValorAntigo>824</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Perfil de Faturamento</Nome>
+                                <Valor>6014018892</Valor>
+                                <ValorAntigo>6014018892</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Segmento Conta</Nome>
+                                <Valor>RESIDENCIAL</Valor>
+                                <ValorAntigo>RESIDENCIAL</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Tipo Logradouro</Nome>
+                                <Valor>RUA</Valor>
+                                <ValorAntigo>RUA</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Tipo Meio Acesso</Nome>
+                                <Valor>Cesta</Valor>
+                                <ValorAntigo>Cesta</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Tipo de Conta</Nome>
+                                <Valor>Pessoa Física</Valor>
+                                <ValorAntigo>Pessoa Física</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                        </ListaAtributos>
+                        <TipoCorrecao/>
+                        <QtdPontosRFOverlay/>
+                        <QtdPontosSTBDVRGratis/>
+                        <QtdPontosSTBHDGratis/>
+                        <QtdPontosSTBHDPago/>
+                        <TipoPromocao>Alone</TipoPromocao>
+                        <flagBSIM>N</flagBSIM>
+                        <aprazado/>
+                        <codAtividade>2</codAtividade>
+                        <codPendencia/>
+                        <alertaPropensao/>
+                        <origemPedido>Contact Center</origemPedido>
+                    </ItemDaOrdem>
+                    <ItemDaOrdem>
+                        <IdItemRootPedido>4-2A8826IU</IdItemRootPedido>
+                        <IdItemPedido>4-2A8826JK</IdItemPedido>
+                        <IdItemPaiPedido>4-2A8826IU</IdItemPaiPedido>
+                        <IDPerfilFatura/>
+                        <IDContaCliente>4-DAXMA1H</IDContaCliente>
+                        <IdAtivo>4-2A8826JK</IdAtivo>
+                        <Acao>adicionar</Acao>
+                        <StatusMeioAcesso/>
+                        <TipoProduto>Benefício</TipoProduto>
+                        <MotivoRetirada/>
+                        <EstornoPortabilidade>N</EstornoPortabilidade>
+                        <SPID/>
+                        <IdCatalogo>DESCIPTV_64_99</IdCatalogo>
+                        <Nome>Desconto Permanente de 64,99% na TV</Nome>
+                        <DataIndicador>2024-06-18T13:00:22</DataIndicador>
+                        <DataPromessa>2024-06-18T13:00:22</DataPromessa>
+                        <DataInstalacao/>
+                        <DataRetirada/>
+                        <IdEnderecoInstalacao/>
+                        <Observacoes/>
+                        <Contato>
+                            <CPF/>
+                            <Nome/>
+                            <DtNascimento/>
+                            <NomeMae/>
+                            <Sexo/>
+                            <Email/>
+                            <TelefoneContato1/>
+                            <TelefoneContato2/>
+                            <TelefoneContato3/>
+                        </Contato>
+                        <ListaAtributos>
+                            <Atributo>
+                                <Nome>Oferta</Nome>
+                                <Valor>Desconto Permanente de 64,99% na TV</Valor>
+                                <ValorAntigo>Desconto Permanente de 64,99% na TV</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Tipo de Benefício</Nome>
+                                <Valor>Desconto</Valor>
+                                <ValorAntigo>Desconto</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Unidade de Benefício</Nome>
+                                <Valor>Percentual</Valor>
+                                <ValorAntigo>Percentual</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Texto</TipoDados>
+                            </Atributo>
+                            <Atributo>
+                                <Nome>Valor de Benefício</Nome>
+                                <Valor>64,99</Valor>
+                                <ValorAntigo>64,99</ValorAntigo>
+                                <Acao>adicionar</Acao>
+                                <TipoDados>Número</TipoDados>
+                            </Atributo>
+                        </ListaAtributos>
+                        <TipoCorrecao/>
+                        <QtdPontosRFOverlay/>
+                        <QtdPontosSTBDVRGratis/>
+                        <QtdPontosSTBHDGratis/>
+                        <QtdPontosSTBHDPago/>
+                        <TipoPromocao>Alone</TipoPromocao>
+                        <flagBSIM>N</flagBSIM>
+                        <aprazado/>
+                        <codAtividade>2</codAtividade>
+                        <codPendencia/>
+                        <alertaPropensao/>
+                        <origemPedido>Contact Center</origemPedido>
+                    </ItemDaOrdem>
+                </ListaDeItens>
+            </Pedido>
+        </ifac:ProcessarOS>
+    </SOAP-ENV:Body>
+</soapenv:Envelope>

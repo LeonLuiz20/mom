@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    <soapenv:Body>
+        <com:serviceOrderSyncResponse xmlns:com="http://oi.com.br/som/common">
+            <code>0</code>
+            <description>Mensagem recebida com sucesso</description>
+        </com:serviceOrderSyncResponse>
+    </soapenv:Body>
+</soapenv:Envelope>
