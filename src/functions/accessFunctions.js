@@ -27,13 +27,13 @@ module.exports.getAccesses = function (items, reqData, qtdPontos, xmlbuilder) {
                         let xmlPlanAttributeList = xmlbuilder.create('listaDeAtributos');
                         itemChild.ListaAtributos.Atributo.forEach(atributo => {
                             xmlPlanAttributeList.ele('atributo')
-                                .ele('nome', atributo.Nome).up()
-                                .ele('valor', atributo.Valor).up()
+                                .ele('nomeAtributo', atributo.Nome).up()
+                                .ele('valorAtributo', atributo.Valor).up()
                                 .up();
                         });
 
                         xmlPlan.ele('idCatalogo', itemChild.IdCatalogo).up()
-                            .ele('nome', itemChild.Nome).up()
+                            .ele('nomePlano', itemChild.Nome).up()
                             .ele('acao', itemChild.Acao).up()
                             .ele('idAtivo', itemChild.IdAtivo).up()
                             .importDocument(xmlPlanAttributeList);
@@ -44,8 +44,8 @@ module.exports.getAccesses = function (items, reqData, qtdPontos, xmlbuilder) {
                         let xmlPlanAttributeList = xmlbuilder.create('listaDeAtributos');
                         itemChild.ListaAtributos.Atributo.forEach(atributo => {
                             xmlPlanAttributeList.ele('atributo')
-                                .ele('nome', atributo.Nome).up()
-                                .ele('valor', atributo.Valor).up()
+                                .ele('nomeAtributo', atributo.Nome).up()
+                                .ele('valorAtributo', atributo.Valor).up()
                                 .up();
                         });
 
@@ -168,8 +168,8 @@ module.exports.getAccesses = function (items, reqData, qtdPontos, xmlbuilder) {
 
                 ) {
                     xmlAttributs.ele('atributo')
-                        .ele('nome', atributo.Nome).up()
-                        .ele('valor', atributo.Valor).up();
+                        .ele('nomeAtributo', atributo.Nome).up()
+                        .ele('valorAtributo', atributo.Valor).up();
                 }
 
             });
@@ -177,7 +177,7 @@ module.exports.getAccesses = function (items, reqData, qtdPontos, xmlbuilder) {
             xmlAccesses.ele('acesso')
                 .ele('idCatalogo', item.IdCatalogo).up()
                 .ele('idAtivo', item.IdAtivo).up()
-                .ele('nome', item.Nome).up()
+                .ele('nomeAcesso', item.Nome).up()
                 .ele('tipoProduto', item.TipoProduto).up()
                 .ele('acao', item.Acao).up()
                 .importDocument(xmlPlan)
